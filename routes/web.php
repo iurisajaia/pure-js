@@ -27,3 +27,7 @@ Route::get('/minify-css', 'RoutesController@MinifyCss');
 Route::get('/minify-js', 'RoutesController@MinifyJs');
 Route::get('/image-to-base64', 'RoutesController@ImageToBase64');
 Route::get('/base64-to-image', 'RoutesController@Base64ToImage');
+
+Route::get('/component' , function(){
+   return view('components');
+});

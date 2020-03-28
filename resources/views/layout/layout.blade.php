@@ -18,20 +18,22 @@
         <link rel="stylesheet" href="{{ asset('/css/animate.css')}}">
         <link rel="stylesheet" href="{{ asset('/css/main.css')}}" type="text/css">
 
+        <link rel="stylesheet" href="{{ asset('/css/tools/radius.css')}}" type="text/css">
 
 
-        <script src="{{ asset('/js/jquery-2.1.3.min.js')}}"></script>
-        <script src="{{ asset('/js/modernizr.custom.js')}}"></script>
+{{--        <script src="{{ asset('/js/jquery-2.1.3.min.js')}}"></script>--}}
+{{--        <script src="{{ asset('/js/modernizr.custom.js')}}"></script>--}}
 
-      </head>
+
+    </head>
     <body>
         <div class="flex-center position-ref full-height">
-            <div class="preloader">
-              <div class="preloader-animation">
-                <div class="dot1"></div>
-                <div class="dot2"></div>
-              </div>
-            </div>
+{{--            <div class="preloader">--}}
+{{--              <div class="preloader-animation">--}}
+{{--                <div class="dot1"></div>--}}
+{{--                <div class="dot2"></div>--}}
+{{--              </div>--}}
+{{--            </div>--}}
             <div id="page" class="page">
                 {{--
 
@@ -92,13 +94,14 @@
         </div>
 
 {{--        <script src="{{ asset('js/page-transition.js')}}"></script>--}}
-        <script src="{{ asset('js/imagesloaded.pkgd.min.js')}}"></script>
-        <script src="{{ asset('js/validator.js')}}"></script>
-        <script src="{{ asset('js/jquery.shuffle.min.js')}}"></script>
-        <script src="{{ asset('js/masonry.pkgd.min.js')}}"></script>
-        <script src="{{ asset('js/owl.carousel.min.js')}}"></script>
-        <script src="{{ asset('js/jquery.magnific-popup.min.js')}}"></script>
-        <script src="{{ asset('js/jquery.hoverdir.js')}}"></script>
-        <script src="{{ asset('js/main.js')}}"></script>
+{{--        <script src="{{ asset('js/imagesloaded.pkgd.min.js')}}"></script>--}}
+{{--        <script src="{{ asset('js/validator.js')}}"></script>--}}
+{{--        <script src="{{ asset('js/jquery.shuffle.min.js')}}"></script>--}}
+{{--        <script src="{{ asset('js/masonry.pkgd.min.js')}}"></script>--}}
+{{--        <script src="{{ asset('js/owl.carousel.min.js')}}"></script>--}}
+{{--        <script src="{{ asset('js/jquery.magnific-popup.min.js')}}"></script>--}}
+{{--        <script src="{{ asset('js/jquery.hoverdir.js')}}"></script>--}}
+{{--        <script src="{{ asset('js/main.js')}}"></script>--}}
+            <script src="{{ asset('js/tools/radius.js')}}"></script>
     </body>
 </html>

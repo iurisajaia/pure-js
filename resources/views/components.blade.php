@@ -1,5 +1,7 @@
+@extends('layout.layout')
+@section('content')
 <!-- Resume Subpage -->
-<section class="pt-page pt-page-2" data-id="resume">
+<section class="pt-page-2" data-id="resume">
     <div class="section-title-block">
         <h2 class="section-title">Resume</h2>
         <h5 class="section-description">6 Years of Experience</h5>
@@ -577,3 +579,4 @@
     </div>
 </section>
 <!-- End Contact Subpage -->
+@endsection
