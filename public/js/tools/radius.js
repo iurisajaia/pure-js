@@ -1,11 +1,13 @@
-let ShadowResultBox = document.getElementById('shadow-result'); // Result Box
-let ShadowCodeBox = document.getElementById('code-result'); // Code Result
-let AllCorner = document.getElementById("shadowAll"); // All Corner
-let ShadowTop = document.getElementById('shadow-top'); // Top Corner
-let ShadowRight = document.getElementById('shadow-right'); // Right Corner
-let ShadowBottom = document.getElementById('shadow-bottom'); // Bottom Corner
-let ShadowLeft = document.getElementById('shadow-left'); // Left Corner
-let CopyToCliboard = document.getElementById('copy-to-clipboard'); // Copy To Clipboard
+const RadiusRefs = {
+    ShadowResultBox : document.querySelector("#shadow-result"),
+    ShadowCodeBox : document.querySelector("#code-result"),
+    AllCorner : document.querySelector("#shadowAll"),
+    ShadowTop : document.querySelector("#shadow-top"),
+    ShadowRight : document.querySelector("#shadow-right"),
+    ShadowBottom : document.querySelector("#shadow-bottom"),
+    ShadowLeft : document.querySelector("#shadow-left"),
+    CopyToCliboard : document.querySelector("#copy-to-clipboard"),
+}
 
 var topLeft = 0;
 var topRight = 0;
@@ -14,65 +16,65 @@ var BottomLeft = 0;
 
 let ResultString = `border-radius : ${topLeft}% ${topRight}% ${BottomRight}% ${BottomLeft}%;`;
 
-AllCorner.addEventListener("change", e => {
+RadiusRefs.AllCorner.addEventListener("change", e => {
 
     ResultString = `border-radius : ${e.target.value}%`;
 
-    ShadowTop.value = e.target.value;
-    ShadowRight.value = e.target.value;
-    ShadowBottom.value = e.target.value;
-    ShadowLeft.value = e.target.value;
+    RadiusRefs.ShadowTop.value = e.target.value;
+    RadiusRefs.ShadowRight.value = e.target.value;
+    RadiusRefs.ShadowBottom.value = e.target.value;
+    RadiusRefs.ShadowLeft.value = e.target.value;
 
-    ShadowCodeBox.innerHTML = ResultString;
+    RadiusRefs.ShadowCodeBox.innerHTML = ResultString;
 
-    ShadowResultBox.style.borderRadius = `${e.target.value}%`;
+    RadiusRefs.ShadowResultBox.style.borderRadius = `${e.target.value}%`;
 });
 
-ShadowTop.addEventListener("change" , e => {
+RadiusRefs.ShadowTop.addEventListener("change" , e => {
 
     topLeft = e.target.value;
 
     ResultString = `border-radius : ${topLeft}% ${topRight}% ${BottomRight}% ${BottomLeft}%;`;
 
-    ShadowCodeBox.innerHTML = ResultString;
+    RadiusRefs.ShadowCodeBox.innerHTML = ResultString;
 
-    ShadowResultBox.style.borderTopLeftRadius = `${e.target.value}%`;
+    RadiusRefs.ShadowResultBox.style.borderTopLeftRadius = `${e.target.value}%`;
 
 });
 
-ShadowRight.addEventListener("change" , e => {
+RadiusRefs.ShadowRight.addEventListener("change" , e => {
 
     topRight = e.target.value;
 
     ResultString = `border-radius : ${topLeft}% ${topRight}% ${BottomRight}% ${BottomLeft}%;`;
 
-    ShadowCodeBox.innerHTML = ResultString;
+    RadiusRefs.ShadowCodeBox.innerHTML = ResultString;
 
-    ShadowResultBox.style.borderTopRightRadius = `${e.target.value}%`;
+    RadiusRefs.ShadowResultBox.style.borderTopRightRadius = `${e.target.value}%`;
 
 });
 
-ShadowBottom.addEventListener("change" , e => {
+RadiusRefs.ShadowBottom.addEventListener("change" , e => {
 
     BottomRight = e.target.value;
 
     ResultString = `border-radius : ${topLeft}% ${topRight}% ${BottomRight}% ${BottomLeft}%;`;
 
-    ShadowCodeBox.innerHTML = ResultString;
+    RadiusRefs.ShadowCodeBox.innerHTML = ResultString;
 
-    ShadowResultBox.style.borderBottomRightRadius = `${e.target.value}%`;
+    RadiusRefs.ShadowResultBox.style.borderBottomRightRadius = `${e.target.value}%`;
 
 });
 
-ShadowLeft.addEventListener("change" , e => {
+RadiusRefs.ShadowLeft.addEventListener("change" , e => {
 
     BottomLeft = e.target.value;
 
     ResultString = `border-radius : ${topLeft}% ${topRight}% ${BottomRight}% ${BottomLeft}%;`;
 
-    ShadowCodeBox.innerHTML = ResultString;
+    RadiusRefs.ShadowCodeBox.innerHTML = ResultString;
 
-    ShadowResultBox.style.borderBottomLeftRadius = `${e.target.value}%`;
+    RadiusRefs.ShadowResultBox.style.borderBottomLeftRadius = `${e.target.value}%`;
 
 });
 

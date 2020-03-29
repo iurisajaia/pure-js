@@ -2,4 +2,6 @@
     width: 100%;
     margin-bottom: 20px;
     border: 1px solid #ffcd38;
+    padding: 10px;
+    border-radius: 8px;
 }

@@ -25,19 +25,19 @@
 
 
 
-{{--        <script src="{{ asset('/js/jquery-2.1.3.min.js')}}"></script>--}}
+        <script src="{{ asset('/js/jquery-2.1.3.min.js')}}"></script>
 {{--        <script src="{{ asset('/js/modernizr.custom.js')}}"></script>--}}
 
 
     </head>
     <body>
         <div class="flex-center position-ref full-height">
-{{--            <div class="preloader">--}}
-{{--              <div class="preloader-animation">--}}
-{{--                <div class="dot1"></div>--}}
-{{--                <div class="dot2"></div>--}}
-{{--              </div>--}}
-{{--            </div>--}}
+            <div class="preloader">
+              <div class="preloader-animation">
+                <div class="dot1"></div>
+                <div class="dot2"></div>
+              </div>
+            </div>
             <div id="page" class="page">
                 {{--
 
@@ -108,8 +108,11 @@
 {{--        <script src="{{ asset('js/main.js')}}"></script>--}}
        <script src="{{ asset('js/jquery-2.1.3.min.js')}}"></script>--}}
        <script src="{{ asset('js/bootstrap.min.js')}}"></script>--}}
+        <script src="{{ asset('js/main.js')}}"></script>
+
 
             @stack('scripts')
+
 
 
     </body>

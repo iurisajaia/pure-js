@@ -105,10 +105,10 @@
                       </a>
                      </div>
                      <div class="col-sm-6 col-md-3 subpage-block">
-                      <a href="/base64-to-image" class="service-block">
+                      <a href="/json-formatter" class="service-block">
                           <div class="service-info">
-                              <img src="images/svg/converter.svg" alt="Management" class="rotateImage">
-                              <h4>Base64 To Image</h4>
+                              <img src="images/svg/json.svg" alt="Management">
+                              <h4>JSON Formatter</h4>
                               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
                           </div>
                       </a>
