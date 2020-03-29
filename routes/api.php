@@ -40,5 +40,42 @@ Route::post('/html-formater', function(Request $request){
 });
 
 Route::post('/minify-js' , function(Request $request){
-//   return response()->json($result);
+    $url = 'https://javascript-minifier.com/raw';
+    $js = $request->text;
+
+    // init the request, set various options, and send it
+    $ch = curl_init();
+
+    curl_setopt_array($ch, [
+        CURLOPT_URL => $url,
+        CURLOPT_RETURNTRANSFER => true,
+        CURLOPT_POST => true,
+        CURLOPT_HTTPHEADER => ["Content-Type: application/x-www-form-urlencoded"],
+        CURLOPT_POSTFIELDS => http_build_query([ "input" => $js ])
+    ]);
+
+    $minified = curl_exec($ch);
+
+    // finally, close the request
+    curl_close($ch);
+
+   return response()->json($minified);
+});
+
+Route::post('/base-encode', function(Request $request){
+
+    $text = $request->text;
+
+    $decoded = base64_encode($text);
+
+    return response()->json($decoded);
+});
+
+Route::post('/base-decode', function(Request $request){
+
+    $text = $request->text;
+
+    $decoded = base64_decode($text);
+
+    return response()->json($decoded);
 });

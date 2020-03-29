@@ -56,4 +56,8 @@ class RoutesController extends Controller{
         return view('tools.json-formatter');
     }
 
+    public function BaseDecodeEncode(){
+        return view('tools.base64-decode');
+    }
+
 }

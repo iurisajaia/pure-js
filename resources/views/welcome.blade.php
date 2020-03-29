@@ -81,7 +81,7 @@
                       <a href="/minify-css" class="service-block">
                           <div class="service-info">
                               <img src="images/svg/compressor.svg" alt="Management">
-                              <h4>Minify / Maxify CSS</h4>
+                              <h4>Minify / Beautify CSS</h4>
                               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
                           </div>
                       </a>
@@ -113,6 +113,15 @@
                           </div>
                       </a>
                      </div>
+                      <div class="col-sm-6 col-md-3 subpage-block">
+                          <a href="/base64-decode" class="service-block">
+                              <div class="service-info">
+                                  <img src="images/svg/encoding.svg" alt="Management">
+                                  <h4>BASE64 Decode / Encode</h4>
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+                              </div>
+                          </a>
+                      </div>
 
                   </div>
                   <!-- End of Services block -->

@@ -106,8 +106,8 @@
 {{--        <script src="{{ asset('js/jquery.magnific-popup.min.js')}}"></script>--}}
 {{--        <script src="{{ asset('js/jquery.hoverdir.js')}}"></script>--}}
 {{--        <script src="{{ asset('js/main.js')}}"></script>--}}
-       <script src="{{ asset('js/jquery-2.1.3.min.js')}}"></script>--}}
-       <script src="{{ asset('js/bootstrap.min.js')}}"></script>--}}
+       <script src="{{ asset('js/jquery-2.1.3.min.js')}}"></script>
+       <script src="{{ asset('js/bootstrap.min.js')}}"></script>
         <script src="{{ asset('js/main.js')}}"></script>
 
 
