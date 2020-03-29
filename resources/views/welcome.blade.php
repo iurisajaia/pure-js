@@ -81,7 +81,7 @@
                       <a href="/minify-css" class="service-block">
                           <div class="service-info">
                               <img src="images/svg/compressor.svg" alt="Management">
-                              <h4>Minify CSS</h4>
+                              <h4>Minify / Maxify CSS</h4>
                               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
                           </div>
                       </a>

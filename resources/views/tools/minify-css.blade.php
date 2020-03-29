@@ -11,6 +11,7 @@
 
             <div class="text-center">
                 <button id="minifycssButton">Minify</button>
+                <button id="maxifycssButton">Maxify</button>
             </div>
 
         </div>
