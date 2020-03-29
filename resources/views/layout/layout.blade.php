@@ -13,6 +13,7 @@
         <link rel="shortcut icon" href="favicon.ico">
 
         <link rel="stylesheet" href="{{ asset('/css/bootstrap.min.css')}}">
+        <link rel="stylesheet" href="{{ asset('/css/fontawesome/all.min.css')}}">
         <link rel="stylesheet" href="{{ asset('/css/normalize.css')}}">
         <link rel="stylesheet" href="{{ asset('/css/transition-animations.css')}}">
         <link rel="stylesheet" href="{{ asset('/css/owl.carousel.css')}}">
@@ -104,6 +105,9 @@
 {{--        <script src="{{ asset('js/owl.carousel.min.js')}}"></script>--}}
 {{--        <script src="{{ asset('js/jquery.magnific-popup.min.js')}}"></script>--}}
 {{--        <script src="{{ asset('js/jquery.hoverdir.js')}}"></script>--}}
+{{--        <script src="{{ asset('js/main.js')}}"></script>--}}
+       <script src="{{ asset('js/jquery-2.1.3.min.js')}}"></script>--}}
+       <script src="{{ asset('js/bootstrap.min.js')}}"></script>--}}
         <script src="{{ asset('js/main.js')}}"></script>
 
 
