@@ -26,3 +26,18 @@ Route::post('/image-to-base64' , function(Request $request){
 
     return response()->json($base);
 });
+
+Route::post('/html-formater', function(Request $request){
+    $text = $request->text;
+
+    $dom = new DOMDocument();
+
+    $dom->preserveWhiteSpace = false;
+    $dom->loadHTML($text,LIBXML_HTML_NOIMPLIED);
+    $dom->formatOutput = true;
+
+
+//    print $dom->saveXML($dom->documentElement);
+
+    return response()->json($dom->saveXML($dom->documentElement));
+});
