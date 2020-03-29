@@ -79,3 +79,21 @@ Route::post('/base-decode', function(Request $request){
 
     return response()->json($decoded);
 });
+
+Route::post('/json-encode', function(Request $request){
+
+    $text = $request->text;
+
+    $decoded = json_encode($text);
+
+    return response()->json($decoded);
+});
+
+Route::post('/json-decode', function(Request $request){
+
+    $text = $request->text;
+
+    $decoded = json_decode($text);
+
+    return response()->json($decoded);
+});

@@ -95,15 +95,15 @@
                           </div>
                       </a>
                     </div>
-                    <div class="col-sm-6 col-md-3 subpage-block">
-                      <a href="/image-to-base64" class="service-block">
-                          <div class="service-info">
-                              <img src="images/svg/converter.svg" alt="Management">
-                              <h4>Image To Base64</h4>
-                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
-                          </div>
-                      </a>
-                     </div>
+                      <div class="col-sm-6 col-md-3 subpage-block">
+                          <a href="/json-encode" class="service-block">
+                              <div class="service-info">
+                                  <img src="images/svg/json-encode.svg" alt="Management">
+                                  <h4>JSON Encode / Decode</h4>
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+                              </div>
+                          </a>
+                      </div>
                      <div class="col-sm-6 col-md-3 subpage-block">
                       <a href="/json-formatter" class="service-block">
                           <div class="service-info">
@@ -117,11 +117,21 @@
                           <a href="/base64-decode" class="service-block">
                               <div class="service-info">
                                   <img src="images/svg/encoding.svg" alt="Management">
-                                  <h4>BASE64 Decode / Encode</h4>
+                                  <h4>BASE64 Encode / Decode</h4>
                                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
                               </div>
                           </a>
                       </div>
+                      <div class="col-sm-6 col-md-3 subpage-block">
+                          <a href="/image-to-base64" class="service-block">
+                              <div class="service-info">
+                                  <img src="images/svg/converter.svg" alt="Management">
+                                  <h4>Image To Base64</h4>
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+                              </div>
+                          </a>
+                      </div>
+
 
                   </div>
                   <!-- End of Services block -->

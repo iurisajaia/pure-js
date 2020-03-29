@@ -28,6 +28,7 @@ Route::get('/minify-js', 'RoutesController@MinifyJs');
 Route::get('/image-to-base64', 'RoutesController@ImageToBase64');
 Route::get('/json-formatter', 'RoutesController@JsonFormatter');
 Route::get('/base64-decode', 'RoutesController@BaseDecodeEncode');
+Route::get('/json-encode', 'RoutesController@JsonEncodeDecode');
 
 Route::get('/component' , function(){
    return view('components');
