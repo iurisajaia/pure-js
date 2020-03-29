@@ -31,3 +31,4 @@ Route::get('/base64-to-image', 'RoutesController@Base64ToImage');
 Route::get('/component' , function(){
    return view('components');
 });
+

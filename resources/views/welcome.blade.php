@@ -27,63 +27,7 @@
 
 
                     <div class="col-sm-6 col-md-6 subpage-block">
-                      <div class="block-title">
-                        <h3>Testimonials</h3>
-                      </div>
-                      <div class="testimonials owl-carousel">
-
-                        <!-- Testimonial 1 -->
-                        <div class="testimonial-item">
-                          <!-- Testimonial Content -->
-                          <div class="testimonial-content">
-                            <div class="testimonial-text">
-                              <p>"Proin auctor pulvinar tellus, et venenatis ligula pharetra eu. Duis dictum nisi sed pellentesque euismod."</p>
-                            </div>
-                          </div>
-                          <!-- /Testimonial Content -->
-                          <!-- Testimonial Author -->
-                          <div class="testimonial-credits">
-                            <!-- Picture -->
-                            <div class="testimonial-picture">
-                              <img src="images/testimonials/testimonial_photo_1.png" alt="">
-                            </div>
-                            <!-- /Picture -->
-                            <!-- Testimonial author information -->
-                            <div class="testimonial-author-info">
-                              <p class="testimonial-author">John Doe</p>
-                              <p class="testimonial-firm">Apple Inc.</p>
-                            </div>
-                          </div>
-                          <!-- /Testimonial author information -->
-                        </div>
-                        <!-- End of Testimonial 1 -->
-
-                        <!-- Testimonial 2 -->
-                        <div class="testimonial-item">
-                          <!-- Testimonial Content -->
-                          <div class="testimonial-content">
-                            <div class="testimonial-text">
-                              <p>"Vivamus porta dapibus tristique. Suspendisse et arcu eget nisi convallis eleifend nec ac lorem."</p>
-                            </div>
-                          </div>
-                          <!-- /Testimonial Content -->
-                          <!-- Testimonial Author -->
-                          <div class="testimonial-credits">
-                            <!-- Picture -->
-                            <div class="testimonial-picture">
-                              <img src="images/testimonials/testimonila_photo_2.png" alt="">
-                            </div>
-                            <!-- /Picture -->
-                            <!-- Testimonial author information -->
-                            <div class="testimonial-author-info">
-                              <p class="testimonial-author">Bryan Morris</p>
-                              <p class="testimonial-firm">Sun Foods</p>
-                            </div>
-                          </div>
-                          <!-- /Testimonial author information -->
-                        </div>
-                        <!-- End of Testimonial 2 -->
-                      </div>
+                          ADS BY GOOGLE
                     </div>
                   </div>
 
@@ -137,7 +81,7 @@
                       <a href="/minify-css" class="service-block">
                           <div class="service-info">
                               <img src="images/svg/compressor.svg" alt="Management">
-                              <h4>CSS Compressor</h4>
+                              <h4>Minify CSS</h4>
                               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
                           </div>
                       </a>
@@ -146,7 +90,7 @@
                       <a href="/minify-js" class="service-block">
                           <div class="service-info">
                               <img src="images/svg/jscompressor.svg" alt="Management" class="rotateImage">
-                              <h4>JS Compressor</h4>
+                              <h4>Minify JS</h4>
                               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
                           </div>
                       </a>

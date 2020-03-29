@@ -39,4 +39,11 @@
             </div>
         </div>
     </div>
+
+    @push('styles')
+        <link rel="stylesheet" href="{{ asset('/css/tools/radius.css')}}" type="text/css">
+    @endpush
+    @push('scripts')
+        <script src="{{ asset('js/tools/radius.js')}}"></script>
+    @endpush
 @endsection

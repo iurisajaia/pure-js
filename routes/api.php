@@ -17,3 +17,8 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+Route::post('/image-to-base64' , function(Request $request){
+    $image = base64_encode($request->file('image'));
+
+    return response()->json($image);
+});

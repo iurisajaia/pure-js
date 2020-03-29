@@ -8,6 +8,8 @@
         <meta name="description" content="Sunshine - Responsive vCard Template" />
         <meta name="keywords" content="vcard, resposnive, retina, resume, jquery, css3, bootstrap, Sunshine, portfolio" />
         <meta name="author" content="lmtheme" />
+        <meta name="csrf-token" content="{{ csrf_token() }}">
+
         <link rel="shortcut icon" href="favicon.ico">
 
         <link rel="stylesheet" href="{{ asset('/css/bootstrap.min.css')}}">
@@ -18,7 +20,8 @@
         <link rel="stylesheet" href="{{ asset('/css/animate.css')}}">
         <link rel="stylesheet" href="{{ asset('/css/main.css')}}" type="text/css">
 
-        <link rel="stylesheet" href="{{ asset('/css/tools/radius.css')}}" type="text/css">
+        @stack('styles')
+
 
 
 {{--        <script src="{{ asset('/js/jquery-2.1.3.min.js')}}"></script>--}}
@@ -102,6 +105,10 @@
 {{--        <script src="{{ asset('js/jquery.magnific-popup.min.js')}}"></script>--}}
 {{--        <script src="{{ asset('js/jquery.hoverdir.js')}}"></script>--}}
 {{--        <script src="{{ asset('js/main.js')}}"></script>--}}
-            <script src="{{ asset('js/tools/radius.js')}}"></script>
+
+
+            @stack('scripts')
+
+
     </body>
 </html>
