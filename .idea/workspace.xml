@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28ceca5c-c93a-47e5-85ab-daf72ef99875" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/css-tools-pure-js.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/css-tools-pure-js.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/tools/html-formater.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/tools/html-formater.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/tools/html-formater.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/tools/html-formater.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/tools/minify-js.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/tools/minify-js.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -153,6 +153,7 @@
       <recent name="$PROJECT_DIR$/public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/Helpers" />
       <recent name="$PROJECT_DIR$/resources/views" />
       <recent name="$PROJECT_DIR$/resources/views/tools" />
     </key>
@@ -190,7 +191,7 @@
       <workItem from="1585336038024" duration="36000" />
       <workItem from="1585343019706" duration="153000" />
       <workItem from="1585378282227" duration="14306000" />
-      <workItem from="1585470828415" duration="16872000" />
+      <workItem from="1585470828415" duration="18330000" />
     </task>
     <servers />
   </component>
@@ -205,6 +206,10 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="335" y="86" key="#radius.js/0.0.1280.800@0.0.1280.800" timestamp="1585420697296" />
+    <state x="458" y="330" key="NewPhpFileDialog" timestamp="1585509270874">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="458" y="330" key="NewPhpFileDialog/0.0.1280.800@0.0.1280.800" timestamp="1585509270874" />
     <state x="173" y="74" key="SettingsEditor" timestamp="1585407311286">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -222,9 +227,9 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="298" y="35" width="683" height="729" key="find.popup/0.0.1280.800@0.0.1280.800" timestamp="1585479717543" />
-    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1585506482197">
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1585509568111">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1585506482197" />
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1585509568111" />
   </component>
 </project>

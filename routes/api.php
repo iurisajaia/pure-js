@@ -2,7 +2,6 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
-
 /*
 |--------------------------------------------------------------------------
 | API Routes
@@ -28,6 +27,7 @@ Route::post('/image-to-base64' , function(Request $request){
 });
 
 Route::post('/html-formater', function(Request $request){
+
     $text = $request->text;
 
     $dom = new DOMDocument();
@@ -36,8 +36,9 @@ Route::post('/html-formater', function(Request $request){
     $dom->loadHTML($text,LIBXML_HTML_NOIMPLIED);
     $dom->formatOutput = true;
 
-
-//    print $dom->saveXML($dom->documentElement);
-
     return response()->json($dom->saveXML($dom->documentElement));
+});
+
+Route::post('/minify-js' , function(Request $request){
+//   return response()->json($result);
 });
