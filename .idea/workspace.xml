@@ -2,18 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28ceca5c-c93a-47e5-85ab-daf72ef99875" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/js/tools/html-formater.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/tools/json-formatter.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/tools/minify-css.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/tools/minify-css.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/tools/imageToBase.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layout/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout/layout.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/tools/html-formater.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/tools/html-formater.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/tools/image-to-base64.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/tools/image-to-base64.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/tools/minify-js.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/tools/minify-js.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/RoutesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/RoutesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/tools/radius.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/tools/radius.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/tools/base64-to-image.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/tools/json-formatter.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,7 +193,7 @@
       <workItem from="1585336038024" duration="36000" />
       <workItem from="1585343019706" duration="153000" />
       <workItem from="1585378282227" duration="14306000" />
-      <workItem from="1585470828415" duration="14463000" />
+      <workItem from="1585470828415" duration="15990000" />
     </task>
     <servers />
   </component>
@@ -230,9 +225,9 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="298" y="35" width="683" height="729" key="find.popup/0.0.1280.800@0.0.1280.800" timestamp="1585479717543" />
-    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1585499045607">
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1585504662821">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1585499045607" />
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1585504662821" />
   </component>
 </project>

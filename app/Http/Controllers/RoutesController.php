@@ -52,8 +52,8 @@ class RoutesController extends Controller{
         return view('tools.image-to-base64');
     }
 
-    public function Base64ToImage(){
-        return view('tools.base64-to-image');
+    public function JsonFormatter(){
+        return view('tools.json-formatter');
     }
 
 }
