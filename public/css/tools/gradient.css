@@ -4,8 +4,14 @@
     background: #ffcd38;
     margin: 50px auto;
 }
-.tab-pane{
-    height:380px;
+.nav-pills{
+    display:flex;
+    justify-content:center;
+}
+.tab-pane >div{
+    display: flex !important;
+    flex-direction: column;
+    height: 100%;
 }
 .color-container{
     overflow:auto;
@@ -37,7 +43,14 @@ height:35px;
     margin: 20px 0;
 }
 .code-container{
-    margin-top: 40px;
+    overflow:auto;
+    word-break:break-word;
+    height:72px;
+}
+.code-container code{
+    width:100%;
+    display:block;
+    font-size: 15px;
 }
 input[type=range] {
     -webkit-appearance: none;

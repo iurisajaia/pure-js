@@ -49,15 +49,71 @@
                                 </form>
                               </div>
                             </div>
+                            <div class="code-container">
+                              <code id="code-result">
+                              
+                              </code>
+                              </div>
                           </div>
+
                     </div>
-                    <div class="tab-pane fade" id="radial" role="tabpanel" aria-labelledby="pills-profile-tab">Radial</div>
+                    <div class="tab-pane fade" id="radial" role="tabpanel" aria-labelledby="pills-profile-tab">
+                      <div>
+                        <div class="col-lg-g col-md-6 col-sm-12">
+                          <div>
+                            <form>
+                              <div>
+                                <h3>Select Colors</h3>
+                                <div>
+                                  <span>Add Color</span>
+                                  <i class="fas fa-plus-circle" id='addColor'>
+                                  </i>
+                                </div>
+                                <div class="color-container" id="color-container">
+                            </div>
+                              </div>
+                              <div class="form-group">
+                                <label htmlFor="shapes">Select Shapes</label>
+                                <select id="shapes" class="form-control">
+                                  <option value="">unset</option>
+                                  <option value="circle">circle</option>
+                                  <option value="ellipse">ellipse</option>
+                                </select>
+                              </div>
+                              <div class="form-group">
+                                <label htmlFor="directions">Select Directions</label>
+                                <select id="shape-directions" class="form-control">
+                                  <option value="">unset</option>
+                                  <option value="to bottom">to bottom</option>
+                                  <option value="to top">to top</option>
+                                  <option value="to left">to left</option>
+                                  <option value="to right">to right</option>
+                                  <option value="to bottom left">to bottom left</option>
+                                  <option value="to bottom right">to bottom right</option>
+                                  <option value="to top left">to top left</option>
+                                  <option value="to top right">to top right</option>
+                                </select>
+                              </div>
+                              <div>
+                                <label for="centerx">CenterX</label>
+                                <input type="range" class="input-range" id="centerx" name="centerx" value="50" min="0" max="100"/>
+                            </div>
+                            <div>
+                              <label for="centery">CenterY</label>
+                              <input type="range" class="input-range" id="centery" name="centery" value="50" min="0" max="100"/>
+                          </div>
+                            </form>
+                          </div>
+                        </div>
+                        <div class="code-container">
+                          <code id="code-result">
+                            background:radial-gradient(at 50% 50%, rgba(19,241,134,1), rgba(23,21,20,1))
+                          </code>
+                          </div>
+                      </div>
+ 
+                    </div>
                   </div>
-                  <div class="code-container">
-                    <code id="code-result">
-                    
-                    </code>
-                    </div>
              </div>
             <div class="col-lg-6 col-md-6 col-sm-12">
                 <div class="result-box" id="shadow-result">
@@ -76,6 +132,6 @@
     @endpush
     @push('scripts')
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-colorpicker/2.5.3/js/bootstrap-colorpicker.min.js"></script>
-    <script src="{{ asset('js/tools/gradient.js')}}"></script>
+    <script src="{{ asset('js/tools/linear-gradient.js')}}"></script>
     @endpush
 @endsection
