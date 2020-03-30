@@ -7,7 +7,17 @@ use Illuminate\Http\Request;
 class RoutesController extends Controller{
 
     public function HomePage(){
-        return view('welcome');
+
+        $this->seo = [
+            'title' => 'css tools generator',
+            'description' => 'css tools generator description'
+        ];
+
+        $data = [
+            'seo' => $this->seo
+        ];
+
+        return view('welcome')->with($data);
     }
 
     public function About(){
@@ -25,43 +35,134 @@ class RoutesController extends Controller{
 
 
     public function BorderRadius(){
-        return view('tools.radius');
+        $this->seo = [
+            'title' => 'border radius generator',
+            'description' => 'css tools generator description'
+        ];
+
+        $data = [
+            'seo' => $this->seo
+        ];
+
+        return view('tools.radius')->with($data);
     }
 
     public function LinearGradient(){
-        return view('tools.gradient');
+        $this->seo = [
+            'title' => 'linear gradient generator',
+            'description' => 'css tools generator description'
+        ];
+
+        $data = [
+            'seo' => $this->seo
+        ];
+
+        return view('tools.gradient')->with($data);
     }
 
     public function BoxShadow(){
-        return view('tools.shadow');
+        $this->seo = [
+            'title' => 'box shadow generator',
+            'description' => 'css tools generator description'
+        ];
+
+        $data = [
+            'seo' => $this->seo
+        ];
+
+        return view('tools.shadow')->with($data);
     }
 
     public function HtmlFormater(){
-        return view('tools.html-formater');
+        $this->seo = [
+            'title' => 'html formatter',
+            'description' => 'css tools generator description'
+        ];
+
+        $data = [
+            'seo' => $this->seo
+        ];
+
+        return view('tools.html-formater')->with($data);
     }
 
     public function MinifyCss(){
-        return view('tools.minify-css');
+
+        $this->seo = [
+            'title' => 'minify css',
+            'description' => 'css tools generator description'
+        ];
+
+        $data = [
+            'seo' => $this->seo
+        ];
+
+        return view('tools.minify-css')->with($data);
     }
 
     public function MinifyJs(){
-        return view('tools.minify-js');
+        $this->seo = [
+            'title' => 'minify js',
+            'description' => 'css tools generator description'
+        ];
+
+        $data = [
+            'seo' => $this->seo
+        ];
+
+        return view('tools.minify-js')->with($data);
     }
 
     public function ImageToBase64(){
-        return view('tools.image-to-base64');
+        $this->seo = [
+            'title' => 'image to base64',
+            'description' => 'css tools generator description'
+        ];
+
+        $data = [
+            'seo' => $this->seo
+        ];
+
+        return view('tools.image-to-base64')->with($data);
     }
 
     public function JsonFormatter(){
-        return view('tools.json-formatter');
+        $this->seo = [
+            'title' => 'json formatter',
+            'description' => 'css tools generator description'
+        ];
+
+        $data = [
+            'seo' => $this->seo
+        ];
+
+        return view('tools.json-formatter')->with($data);
     }
 
     public function BaseDecodeEncode(){
-        return view('tools.base64-decode');
+        $this->seo = [
+            'title' => 'base 64 encode / decode',
+            'description' => 'css tools generator description'
+        ];
+
+        $data = [
+            'seo' => $this->seo
+        ];
+        return view('tools.base64-decode')->with($data);
     }
 
     public function JsonEncodeDecode(){
-        return view('tools.json-encode');
+
+        $this->seo = [
+            'title' => 'json encode / decode',
+            'description' => 'css tools generator description'
+        ];
+
+        $data = [
+            'seo' => $this->seo
+        ];
+
+        return view('tools.json-encode')->with($data);
     }
 
 }

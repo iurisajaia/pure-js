@@ -3,12 +3,42 @@
     <head>
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Sunshine - Responsive vCard Template</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-        <meta name="description" content="Sunshine - Responsive vCard Template" />
-        <meta name="keywords" content="vcard, resposnive, retina, resume, jquery, css3, bootstrap, Sunshine, portfolio" />
-        <meta name="author" content="lmtheme" />
+        <title>@isset( $seo ){{$seo["title"]}}@endif</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta content="@isset( $seo ){{$seo["title"]}}@endif" name="title" />
+        <meta content="@isset( $seo ){{$seo["description"]}}@endif" name="description" />
+
+
+        <meta content="@isset( $seo ){{$seo["title"]}}@endif" property="og:title" />
+        <meta content="@isset( $seo ){{$seo["description"]}}@endif" property="og:description" />
+
+        <meta property="og:type" content="website"/>
+        <meta property="og:site_name" content="css-tool.com"/>
+        <meta content="css-tool.com" name="author" />
+
         <meta name="csrf-token" content="{{ csrf_token() }}">
+
+        <meta name="keywoards"
+          content="
+                css tool,
+                box shadow generator,
+                border radius generator ,
+                linear gradient generator,
+                html formatter ,
+                html prettier,
+                minify css,
+                minify js,
+                json encode,
+                json decode,
+                json formatter,
+                image to base64,
+                base64 to image,
+                base64 encode,
+                base64 decode
+        "
+        />
 
         <link rel="shortcut icon" href="favicon.ico">
 
