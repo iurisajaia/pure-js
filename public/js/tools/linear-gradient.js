@@ -1,11 +1,15 @@
 let ShadowResultBox = document.getElementById('shadow-result'); // Result Box
 let ShadowCodeBox = document.getElementById('code-result'); // Code Result
 let AddColor = document.getElementById("addColor"); // Add Color
+let Degree = document.getElementById('degree');
+let Directions = document.getElementById('directions');
 let ColorContainer = document.getElementById('color-container'); // Color Container
 let CopyToCliboard = document.getElementById('copy-to-clipboard'); // Copy To Clipboard
 
 
-
+let ResultString;
+let degree;
+let direction;
 let options=[
     {   id:new Date('2019').getTime(),
         color: 'rgba(19,241,134,1)',
@@ -20,12 +24,19 @@ let options=[
 
 
      const generateCode = () =>{
-        let ResultString = 'linear-gradient('
+         if(degree){
+            ResultString = `linear-gradient(${degree}deg, `
+         }else if(direction){
+            ResultString = `linear-gradient(${direction}, `
+         }else{
+            ResultString = 'linear-gradient('
+         }
+        
         options.forEach((option,i,arr)=>{
             if(i!==arr.length-1){
-                ResultString += option.color + ',';
+                ResultString += option.color + (option.spread ? ' ' + option.spread + '%' : '') + ',';
             }else{
-                ResultString += option.color + ')'
+                ResultString += option.color + (option.spread ? ' ' + option.spread + '%' : '') + ')'
             }
         })
         ShadowCodeBox.innerHTML = ResultString;
@@ -81,6 +92,16 @@ let options=[
     }
     AddColor.addEventListener("click", e =>{
         addColors(new Date().getTime(),'add')
+    })
+
+    Degree.addEventListener("change", function(e){
+        degree = e.target.value
+        generateCode()
+    })
+
+    Directions.addEventListener("change", function(e){
+        direction = e.target.value
+        generateCode()
     })
 
     options.forEach(option => addColors(option.id,"init"))
