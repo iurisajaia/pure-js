@@ -1,7 +1,7 @@
 @extends('layout.layout')
 @section('content')
-    <div class="text-center">
-        <h1>Border Radius Generator</h1>
+    <div class="section-title-block">
+        <h1 class="section-title">Border Radius Generator</h1>
     </div>
     <div class="border-radius-container">
         <div class="row">
