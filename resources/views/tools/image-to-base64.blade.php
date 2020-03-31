@@ -14,7 +14,9 @@
                 {{ csrf_field() }}
                 <label for="select_file">Select File For Converting</label>
                 <br/><br/>
+                <div class="select_file_container">
                 <input type="file" name="select_file" id="select_file" />
+                </div>
                 <br/><br/>
                 <button>Upload</button>
 

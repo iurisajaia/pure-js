@@ -44,7 +44,11 @@ let RadialOptions=[
                 RadialString += option.color + (option.spread ? ' ' + option.spread + '%' : '') + ')'
             }
         })
-        RadialCode.innerHTML = RadialString;
+        RadialCode.innerHTML =`
+        ${RadialString}
+        ${'-webkit-'+RadialString}
+        ${'-moz-'+RadialString}
+        `;
         ShadowResultBox.style.background = RadialString;
     }
 
