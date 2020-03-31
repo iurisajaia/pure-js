@@ -109,7 +109,6 @@
 
         </div>
 
-
        <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.10/clipboard.min.js"></script>
        <script src="{{ asset('js/jquery-2.1.3.min.js')}}"></script>
        <script src="{{ asset('js/main.js')}}"></script>

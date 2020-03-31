@@ -24,14 +24,14 @@
             <label for="resultArea">For use in img elements:</label>
             <textarea class="minify-textarea" id="resultArea" cols="30" rows="10" disabled></textarea>
             <div class="text-center">
-                <button>Copy To Clipboard</button>
+                <button target="_blank" data-clipboard-action="copy" class="button" data-clipboard-target="#resultArea">Copy To Clipboard</button>
             </div>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12">
             <label for="resultAreaCss">For use as CSS background:</label>
             <textarea class="minify-textarea" id="resultAreaCss" cols="30" rows="10" disabled></textarea>
             <div class="text-center">
-                <button>Copy To Clipboard</button>
+                <button target="_blank" data-clipboard-action="copy" class="button" data-clipboard-target="#resultAreaCss">Copy To Clipboard</button>
             </div>
         </div>
     </div>

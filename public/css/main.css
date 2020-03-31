@@ -2091,5 +2091,5 @@ section {
     background-image: url("../images/svg/close.svg");
 }
 .button:focus{
-    background: red;
+    background: #d7ae36;
 }

@@ -21,7 +21,7 @@
             <textarea class="minify-textarea" placeholder="Your minified JS code will be here..." disabled id="htmlFormatOutput" cols="30" rows="10"></textarea>
 
             <div class="text-center">
-                <button>Copy To Clipboard</button>
+                <button target="_blank" data-clipboard-action="copy" class="button" data-clipboard-target="#htmlFormatOutput">Copy To Clipboard</button>
             </div>
 
         </div>
