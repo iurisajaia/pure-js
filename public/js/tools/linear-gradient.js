@@ -39,7 +39,11 @@ let options=[
                 ResultString += option.color + (option.spread ? ' ' + option.spread + '%' : '') + ')'
             }
         })
-        ShadowCodeBox.innerHTML = ResultString;
+        ShadowCodeBox.innerHTML = `
+        ${ResultString}
+        ${'-webkit-'+ResultString}
+        ${'-moz-'+ResultString}
+        `;
         ShadowResultBox.style.background = ResultString;
     }
 
