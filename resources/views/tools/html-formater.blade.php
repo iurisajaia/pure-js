@@ -1,8 +1,14 @@
 @extends('layout.layout')
 @section('content')
-    <h1>HTML Formater</h1>
-    <div class="text-center">
-        <h1>HTML Formatter</h1>
+    <div class="section-title-block">
+        <h1 class="section-title">HTML Formatter</h1>
+    </div>
+    <div class="description">
+        <h2>
+            HTML FORMATTER - Formats a HTML string/file with your desired indentation level.
+            <br/>
+            The formatting rules are not configurable but are already optimized for the best possible output.
+        </h2>
     </div>
     <div class="row">
         <div class="col-lg-6 col-md-6 col-sm-12">

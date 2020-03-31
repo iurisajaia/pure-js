@@ -1,7 +1,12 @@
 @extends('layout.layout')
 @section('content')
-    <div class="text-center">
-        <h1>JSON Encode / Decode</h1>
+    <div class="section-title-block">
+        <h1 class="section-title">JSON Encode / Decode</h1>
+    </div>
+    <div class="description">
+        <h2>
+            Decode or Encode JSON with advanced formatting options. Enter our site for an easy-to-use online tool.
+        </h2>
     </div>
     <div class="row">
         <div class="col-lg-6 col-md-6 col-sm-12">

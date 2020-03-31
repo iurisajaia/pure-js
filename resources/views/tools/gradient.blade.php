@@ -1,6 +1,13 @@
 @extends('layout.layout')
 @section('content')
-    <h1>Gradient</h1>
+    <div class="section-title-block">
+        <h1 class="section-title">CSS Gradient</h1>
+    </div>
+    <div class="description">
+        <h2>
+            A free css gradient generator tool, this website lets you create a colorful gradient background for your website, blog, or social media profile.
+        </h2>
+    </div>
     <div class="border-radius-container">
         <div class="row">
             <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
@@ -51,7 +58,7 @@
                             </div>
                             <div class="code-container">
                               <code id="code-result">
-                              
+
                               </code>
                               </div>
                           </div>
@@ -106,7 +113,7 @@
                           </code>
                           </div>
                       </div>
- 
+
                     </div>
                   </div>
              </div>

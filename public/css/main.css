@@ -2047,3 +2047,23 @@ blockquote {
 .rotateImage{
     transform: scaleX(-1);
 }
+.pt-2{
+    padding-top: 20px;
+}
+.description{
+    padding: 30px;
+    text-align: center;
+}
+.description h2 {
+    font-size: 17px;
+    font-weight: 300;
+}
+.code-container code {
+    white-space: pre-line;
+    text-align: left;
+    display: block;
+    padding: 10px 10px 20px 10px;
+}
+section {
+    padding-bottom: 40px;
+}

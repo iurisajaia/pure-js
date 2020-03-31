@@ -14,34 +14,14 @@
         <meta content="@isset( $seo ){{$seo["title"]}}@endif" property="og:title" />
         <meta content="@isset( $seo ){{$seo["description"]}}@endif" property="og:description" />
 
-        <meta property="og:type" content="website"/>
-        <meta property="og:site_name" content="css-tool.com"/>
-        <meta content="css-tool.com" name="author" />
+        <meta content="@isset( $seo ){{$seo["keywoards"]}}@endif" name="keywoards"/>
 
+
+        <title>@isset( $seo ){{$seo["title"]}}@endif</title>
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
-        <meta name="keywoards"
-          content="
-                css tool,
-                box shadow generator,
-                border radius generator ,
-                linear gradient generator,
-                html formatter ,
-                html prettier,
-                minify css,
-                minify js,
-                json encode,
-                json decode,
-                json formatter,
-                image to base64,
-                base64 to image,
-                base64 encode,
-                base64 decode
-        "
-        />
 
         <link rel="shortcut icon" href="favicon.ico">
-
         <link rel="stylesheet" href="{{ asset('/css/bootstrap.min.css')}}">
         <link rel="stylesheet" href="{{ asset('/css/fontawesome/all.min.css')}}">
         <link rel="stylesheet" href="{{ asset('/css/normalize.css')}}">
@@ -119,6 +99,7 @@
                 </div>
                         <footer class="pt-2">
                             <div class="text-center">
+                                <p>© CSS-TOOL.COM - All rights reserved</p>
                                 <p>2020</p>
                             </div>
                         </footer>

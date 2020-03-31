@@ -1,7 +1,14 @@
 @extends('layout.layout')
 @section('content')
-    <div class="text-center">
-        <h1>Box Shadow Generator</h1>
+    <div class="section-title-block">
+        <h1 class="section-title">Box Shadow Generator</h1>
+    </div>
+    <div class="description">
+        <h2>
+            The box-shadow CSS property adds shadow effects around an element's frame. You can set multiple effects separated by commas.
+            <br/>
+            A box shadow is described by X and Y offsets relative to the element, blur and spread radius, and color.
+        </h2>
     </div>
     <div class="border-radius-container">
         <div class="row">

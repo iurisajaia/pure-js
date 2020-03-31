@@ -1,8 +1,12 @@
 @extends('layout.layout')
 @section('content')
-
-    <div class="text-center">
-        <h1>CSS Compressor</h1>
+    <div class="section-title-block">
+        <h1 class="section-title">Minify CSS</h1>
+    </div>
+    <div class="description">
+        <h2>
+            Free web-based tool to minify or beautify your CSS code.
+        </h2>
     </div>
     <div class="row">
         <div class="col-lg-6 col-md-6 col-sm-12">
@@ -11,7 +15,7 @@
 
             <div class="text-center">
                 <button id="minifycssButton">Minify</button>
-                <button id="maxifycssButton">Maxify</button>
+                <button id="maxifycssButton">Beautify</button>
             </div>
 
         </div>

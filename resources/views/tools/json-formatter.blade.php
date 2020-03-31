@@ -1,8 +1,13 @@
 @extends('layout.layout')
 @section('content')
 
-    <div class="text-center">
-        <h1>JSON Formatter</h1>
+    <div class="section-title-block">
+        <h1 class="section-title">JSON Formatter</h1>
+    </div>
+    <div class="description">
+        <h2>
+            The JSON Formatter beautifies JSON data with advanced formatting algorithms.
+        </h2>
     </div>
     <div class="row">
         <div class="col-lg-6 col-md-6 col-sm-12">

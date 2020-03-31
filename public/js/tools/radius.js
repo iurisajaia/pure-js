@@ -14,15 +14,27 @@ var topRight = 0;
 var BottomRight = 0;
 var BottomLeft = 0;
 
-let ResultString = `border-radius : ${topLeft}% ${topRight}% ${BottomRight}% ${BottomLeft}%;`;
+let ResultString = `
+    border-radius : ${topLeft}% ${topRight}% ${BottomRight}% ${BottomLeft}%;
+    -moz-border-radius: ${topLeft}% ${topRight}% ${BottomRight}% ${BottomLeft}%;
+    -webkit-border-radius: ${topLeft}% ${topRight}% ${BottomRight}% ${BottomLeft}%;
+`;
 
 const resultRadius = () => {
-    return RadiusRefs.ShadowCodeBox.innerHTML = `border-radius : ${topLeft}% ${topRight}% ${BottomRight}% ${BottomLeft}%;`;
+    return RadiusRefs.ShadowCodeBox.innerHTML = `
+    border-radius : ${topLeft}% ${topRight}% ${BottomRight}% ${BottomLeft}%;
+    -moz-border-radius: ${topLeft}% ${topRight}% ${BottomRight}% ${BottomLeft}%;
+    -webkit-border-radius: ${topLeft}% ${topRight}% ${BottomRight}% ${BottomLeft}%;
+    `;
 };
 
 RadiusRefs.AllCorner.addEventListener("change", e => {
 
-    ResultString = `border-radius : ${e.target.value}%`;
+    ResultString = `
+    border-radius : ${e.target.value}%;
+    -moz-border-radius: ${e.target.value}%;
+    -webkit-border-radius: ${e.target.value}%;
+    `;
 
     RadiusRefs.ShadowTop.value = e.target.value;
     RadiusRefs.ShadowRight.value = e.target.value;

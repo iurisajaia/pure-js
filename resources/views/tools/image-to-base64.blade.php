@@ -1,9 +1,13 @@
 @extends('layout.layout')
 @section('content')
-    <div class="text-center">
-        <h1>Image To base64</h1>
+    <div class="section-title-block">
+        <h1 class="section-title">Image To BASE64</h1>
     </div>
-    <br/>
+    <div class="description">
+        <h2>
+            Optimize your images and convert them to base64 online. Drag & Drop your files, copy to clipboard with a click and use the result in HTML and CSS.
+        </h2>
+    </div>
     <div class="row">
         <div class="col-lg-12 col-sm-12">
             <form method="post" id="upload_form" enctype="multipart/form-data">
