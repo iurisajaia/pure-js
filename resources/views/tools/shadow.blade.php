@@ -26,25 +26,21 @@
                 <input type="range" class="input-range" id="spread" name="spread" value="0" min="0" max="300"/>
 
                 <label for="shadowColor">Shadow Color</label>
-                <input type="color" class="input-range" id="shadowColor" name="color"/>
+                <input type="text" class="form-control color-input" id="shadowColor" value='rgba(19,241,134,1)'/>
                 <br/>
                 <label for="backgroundColor">Background Color</label>
-                <input type="color" class="input-range" id="backgroundColor" name="color" value="#fff"/>
+                <input type="text" class="form-control color-input" id="backgroundColor" value='rgba(19,241,134,1)'/>
                 <br/>
                 <label for="boxColor">Box Color</label>
-                <input type="color" class="input-range" id="boxColor" name="color" value="#ffcd38"/>
+                <input type="text" class="form-control color-input" id="boxColor" value='rgba(19,241,134,1)'/>
                 <br/>
-
-                <label for="opacity">Opacity</label>
-                <input type="range" class="input-range" id="opacity" name="opacity" value="1" min="0" max="1"/>
-
                 <div class="code-container">
                     <code id="shadowCode">
                         border-radius : 0px 0px 0px 0px;
                     </code>
                 </div>
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="col-lg-6 col-md-6 col-sm-12 " id="backgroundContainer">
                 <div class="result-box" id="shadowResult">
 
                 </div>
@@ -60,8 +56,11 @@
 
     @push('styles')
         <link rel="stylesheet" href="{{ asset('/css/tools/radius.css')}}" type="text/css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-colorpicker/2.5.3/css/bootstrap-colorpicker.min.css" rel="stylesheet">
     @endpush
     @push('scripts')
+       
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-colorpicker/2.5.3/js/bootstrap-colorpicker.min.js"></script>
         <script src="{{ asset('js/tools/shadow.js')}}"></script>
-    @endpush
+        @endpush
 @endsection

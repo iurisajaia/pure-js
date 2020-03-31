@@ -10,14 +10,14 @@
     </div>
     <div class="border-radius-container">
         <div class="row">
-            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-                <li class="nav-item active">
-                  <a class="nav-link active" id="pills-linear-tab" data-toggle="pill" href="#linear" role="tab" aria-controls="pills-home" aria-selected="true">Linear</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" id="pills-radial-tab" data-toggle="pill" href="#radial" role="tab" aria-controls="pills-profile" aria-selected="false">Radial</a>
-                </li>
-              </ul>
+          <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+            <li class="nav-item active">
+              <a class="nav-link active" id="pills-linear-tab" data-toggle="pill" href="#linear" role="tab" aria-controls="pills-home" aria-selected="true">Linear</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="pills-radial-tab" data-toggle="pill" href="#radial" role="tab" aria-controls="pills-profile" aria-selected="false">Radial</a>
+            </li>
+          </ul>
             <div class="col-lg-6 col-md-6 col-sm-12">
                 <div class="tab-content" id="pills-tabContent">
                     <div class="tab-pane fade  active in" id="linear" role="tabpanel" aria-labelledby="pills-home-tab">
