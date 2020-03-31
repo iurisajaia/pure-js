@@ -55,8 +55,12 @@
                 <div id="main" class="site-main">
                     <!-- Page changer wrapper -->
                     <div class="pt-wrapper">
+                        <div class="mobile-menu-toggle">
+                            <div class="menu-icon open" id="menuToggle">
+                            </div>
+                        </div>
                         <!-- Navigation & Social buttons -->
-                        <div class="site-nav mobile-menu-hide">
+                        <div class="site-nav mobile-menu-hide" id="mobileMenu">
                             <!-- Main menu -->
                             <ul id="nav" class="site-main-menu">
                                 <li>
@@ -79,12 +83,9 @@
 
                             <!-- Social buttons -->
                             <ul class="social-links">
-                                <li><a class="tip social-button" href="#" title="Twitter"><i class="fa fa-twitter"></i></a></li> <!-- Full list of social icons: http://fontawesome.io/icons/#brand -->
+                                <li><a class="tip social-button" href="#" title="Twitter"><i class="fa fa-twitter"></i></a></li>
                                 <li><a class="tip social-button" href="#" title="Facebook"><i class="fa fa-facebook"></i></a></li>
                                 <li><a class="tip social-button" href="#" title="Google Plus"><i class="fa fa-google-plus"></i></a></li>
-                                <!--<li><a class="tip social-button" href="#" title="Youtube"><i class="fa fa-youtube"></i></a></li>-->
-                                <!--<li><a class="tip social-button" href="#" title="last.fm"><i class="fa fa-lastfm"></i></a></li>-->
-                                <!--<li><a class="tip social-button" href="#" title="Dribbble"><i class="fa fa-dribbble"></i></a></li>-->
                             </ul>
                             <!-- /Social buttons -->
                         </div>
@@ -108,21 +109,13 @@
 
         </div>
 
-{{--        <script src="{{ asset('js/page-transition.js')}}"></script>--}}
-{{--        <script src="{{ asset('js/imagesloaded.pkgd.min.js')}}"></script>--}}
-{{--        <script src="{{ asset('js/validator.js')}}"></script>--}}
-{{--        <script src="{{ asset('js/jquery.shuffle.min.js')}}"></script>--}}
-{{--        <script src="{{ asset('js/masonry.pkgd.min.js')}}"></script>--}}
-{{--        <script src="{{ asset('js/owl.carousel.min.js')}}"></script>--}}
-{{--        <script src="{{ asset('js/jquery.magnific-popup.min.js')}}"></script>--}}
-{{--        <script src="{{ asset('js/jquery.hoverdir.js')}}"></script>--}}
-{{--        <script src="{{ asset('js/main.js')}}"></script>--}}
+
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.10/clipboard.min.js"></script>
        <script src="{{ asset('js/jquery-2.1.3.min.js')}}"></script>
-       <script src="{{ asset('js/bootstrap.min.js')}}"></script>
-        <script src="{{ asset('js/main.js')}}"></script>
+       <script src="{{ asset('js/main.js')}}"></script>
 
 
-            @stack('scripts')
+        @stack('scripts')
 
 
 

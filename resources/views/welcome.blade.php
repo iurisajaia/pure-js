@@ -12,12 +12,7 @@
                   </div>
 
                   <div class="row">
-                    <div class="col-sm-12 col-md-12 mobile-visible subpage-block">
-                      <div class="my-photo-small">
-                        <img src="images/photo_small.jpg" alt="image">
-                      </div>
-                    </div>
-                    <div class="col-sm-6 col-md-6 subpage-block">
+                    <div class="col-sm-6 col-md-6 col-sm-12 subpage-block">
                       <div class="general-info">
                         <h3>CSS-TOOL.COM</h3>
                         <p>Proin laoreet elementum ligula, ac tincidunt lorem accumsan nec. Fusce eget urna ante. Donec massa velit, varius a accumsan ac, tempor iaculis massa. Sed placerat justo sed libero varius vulputate. Ut a mi tempus massa malesuada fermentum.</p>
@@ -26,7 +21,7 @@
                     </div>
 
 
-                    <div class="col-sm-6 col-md-6 subpage-block">
+                    <div class="col-sm-6 col-md-6 col-sm-12 subpage-block">
                           ADS BY GOOGLE
                     </div>
                   </div>
