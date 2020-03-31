@@ -5,10 +5,10 @@
         <div class="row">
             <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
                 <li class="nav-item active">
-                  <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#linear" role="tab" aria-controls="pills-home" aria-selected="true">Linear</a>
+                  <a class="nav-link active" id="pills-linear-tab" data-toggle="pill" href="#linear" role="tab" aria-controls="pills-home" aria-selected="true">Linear</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#radial" role="tab" aria-controls="pills-profile" aria-selected="false">Radial</a>
+                  <a class="nav-link" id="pills-radial-tab" data-toggle="pill" href="#radial" role="tab" aria-controls="pills-profile" aria-selected="false">Radial</a>
                 </li>
               </ul>
             <div class="col-lg-6 col-md-6 col-sm-12">
@@ -66,10 +66,10 @@
                                 <h3>Select Colors</h3>
                                 <div>
                                   <span>Add Color</span>
-                                  <i class="fas fa-plus-circle" id='addColor'>
+                                  <i class="fas fa-plus-circle" id='addRadialColor'>
                                   </i>
                                 </div>
-                                <div class="color-container" id="color-container">
+                                <div class="color-container" id="radialColorContainer">
                             </div>
                               </div>
                               <div class="form-group">
@@ -84,14 +84,10 @@
                                 <label htmlFor="directions">Select Directions</label>
                                 <select id="shape-directions" class="form-control">
                                   <option value="">unset</option>
-                                  <option value="to bottom">to bottom</option>
-                                  <option value="to top">to top</option>
-                                  <option value="to left">to left</option>
-                                  <option value="to right">to right</option>
-                                  <option value="to bottom left">to bottom left</option>
-                                  <option value="to bottom right">to bottom right</option>
-                                  <option value="to top left">to top left</option>
-                                  <option value="to top right">to top right</option>
+                                  <option value="closest-corner">closest-corner</option>
+                                  <option value="closest-side">closest-side</option>
+                                  <option value="farthest-corner">farthest-corner</option>
+                                  <option value="farthest-side">farthest-side</option>
                                 </select>
                               </div>
                               <div>
@@ -106,8 +102,7 @@
                           </div>
                         </div>
                         <div class="code-container">
-                          <code id="code-result">
-                            background:radial-gradient(at 50% 50%, rgba(19,241,134,1), rgba(23,21,20,1))
+                          <code id="radial-code">
                           </code>
                           </div>
                       </div>
@@ -133,5 +128,6 @@
     @push('scripts')
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-colorpicker/2.5.3/js/bootstrap-colorpicker.min.js"></script>
     <script src="{{ asset('js/tools/linear-gradient.js')}}"></script>
+    <script src="{{ asset('js/tools/radial-gradient.js')}}"></script>
     @endpush
 @endsection
