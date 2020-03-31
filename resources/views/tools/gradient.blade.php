@@ -58,7 +58,55 @@
 
                     </div>
                     <div class="tab-pane fade" id="radial" role="tabpanel" aria-labelledby="pills-profile-tab">
-               
+                      <div>
+                        <div class="col-lg-g col-md-6 col-sm-12">
+                          <div>
+                            <form>
+                              <div>
+                                <h3>Select Colors</h3>
+                                <div>
+                                  <span>Add Color</span>
+                                  <i class="fas fa-plus-circle" id='addRadialColor'>
+                                  </i>
+                                </div>
+                                <div class="color-container" id="radialColorContainer">
+                            </div>
+                              </div>
+                              <div class="form-group">
+                                <label htmlFor="shapes">Select Shapes</label>
+                                <select id="shapes" class="form-control">
+                                  <option value="">unset</option>
+                                  <option value="circle">circle</option>
+                                  <option value="ellipse">ellipse</option>
+                                </select>
+                              </div>
+                              <div class="form-group">
+                                <label htmlFor="directions">Select Directions</label>
+                                <select id="shape-directions" class="form-control">
+                                  <option value="">unset</option>
+                                  <option value="closest-corner">closest-corner</option>
+                                  <option value="closest-side">closest-side</option>
+                                  <option value="farthest-corner">farthest-corner</option>
+                                  <option value="farthest-side">farthest-side</option>
+                                </select>
+                              </div>
+                              <div>
+                                <label for="centerx">CenterX</label>
+                                <input type="range" class="input-range" id="centerx" name="centerx" value="50" min="0" max="100"/>
+                            </div>
+                            <div>
+                              <label for="centery">CenterY</label>
+                              <input type="range" class="input-range" id="centery" name="centery" value="50" min="0" max="100"/>
+                          </div>
+                            </form>
+                          </div>
+                        </div>
+                        <div class="code-container">
+                          <code id="radial-code">
+                          </code>
+                          </div>
+                      </div>
+ 
                     </div>
                   </div>
              </div>
@@ -80,5 +128,6 @@
     @push('scripts')
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-colorpicker/2.5.3/js/bootstrap-colorpicker.min.js"></script>
     <script src="{{ asset('js/tools/linear-gradient.js')}}"></script>
+    <script src="{{ asset('js/tools/radial-gradient.js')}}"></script>
     @endpush
 @endsection
