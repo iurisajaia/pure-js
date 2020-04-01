@@ -21,7 +21,7 @@
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12">
 
-            <textarea class="minify-textarea" id="minifyCssOutput" cols="30" rows="10"></textarea>
+            <textarea class="minify-textarea" readonly id="minifyCssOutput" cols="30" rows="10"></textarea>
 
             <div class="text-center">
                 <button target="_blank" data-clipboard-action="copy" class="button" data-clipboard-target="#minifyCssOutput">Copy To Clipboard</button>

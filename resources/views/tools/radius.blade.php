@@ -1,6 +1,5 @@
 @extends('layout.layout')
 @section('content')
-    <section>
         <div class="section-title-block">
             <h1 class="section-title">Border Radius Generator</h1>
         </div>
@@ -51,7 +50,6 @@
                 </div>
             </div>
         </div>
-    </section>
 
 
     @push('styles')

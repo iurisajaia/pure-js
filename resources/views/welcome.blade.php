@@ -8,11 +8,10 @@
                 <section class="pt-page-1" data-id="about_me">
                   <div class="section-title-block">
                     <h2 class="section-title">Home</h2>
-{{--                    <h5 class="section-description">Artist, Thinker, Creative Doer</h5>--}}
                   </div>
 
                   <div class="row">
-                    <div class="col-sm-6 col-md-6 col-sm-12 subpage-block">
+                    <div class="col-md-12 col-sm-12 subpage-block">
                       <div class="general-info">
                         <h3>CSS-TOOL.COM</h3>
                         <p>Proin laoreet elementum ligula, ac tincidunt lorem accumsan nec. Fusce eget urna ante. Donec massa velit, varius a accumsan ac, tempor iaculis massa. Sed placerat justo sed libero varius vulputate. Ut a mi tempus massa malesuada fermentum.</p>
@@ -21,9 +20,8 @@
                     </div>
 
 
-                    <div class="col-sm-6 col-md-6 col-sm-12 subpage-block">
-                          ADS BY GOOGLE
-                    </div>
+{{--                    <div class="col-sm-6 col-md-6 col-sm-12 subpage-block">--}}
+{{--                    </div>--}}
                   </div>
 
                   <!-- Services block -->
@@ -37,7 +35,6 @@
                         <div class="service-info">
                           <img src="images/svg/radius.svg" alt="Responsive Design">
                           <h4>Border Radius Generator</h4>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
                         </div>
                       </a>
                     </div>
@@ -47,7 +44,6 @@
                         <div class="service-info">
                           <img src="images/svg/gradient.svg" alt="Copywriter">
                           <h4>Linear Gradient Generator</h4>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
                         </div>
                       </a>
                     </div>
@@ -57,7 +53,6 @@
                         <div class="service-info">
                           <img src="images/svg/shadow.svg" alt="E-Commerce">
                           <h4>Box Shadow Generator</h4>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
                         </div>
                       </a>
                     </div>
@@ -67,7 +62,6 @@
                         <div class="service-info">
                           <img src="images/svg/format.svg" alt="Management">
                           <h4>HTML Formater</h4>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
                         </div>
                       </a>
                     </div>
@@ -77,7 +71,6 @@
                           <div class="service-info">
                               <img src="images/svg/compressor.svg" alt="Management">
                               <h4>Minify / Beautify CSS</h4>
-                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
                           </div>
                       </a>
                     </div>
@@ -86,7 +79,6 @@
                           <div class="service-info">
                               <img src="images/svg/jscompressor.svg" alt="Management" class="rotateImage">
                               <h4>Minify JS</h4>
-                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
                           </div>
                       </a>
                     </div>
@@ -95,7 +87,6 @@
                               <div class="service-info">
                                   <img src="images/svg/json-encode.svg" alt="Management">
                                   <h4>JSON Encode / Decode</h4>
-                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
                               </div>
                           </a>
                       </div>
@@ -104,7 +95,6 @@
                           <div class="service-info">
                               <img src="images/svg/json.svg" alt="Management">
                               <h4>JSON Formatter</h4>
-                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
                           </div>
                       </a>
                      </div>
@@ -113,7 +103,6 @@
                               <div class="service-info">
                                   <img src="images/svg/encoding.svg" alt="Management">
                                   <h4>BASE64 Encode / Decode</h4>
-                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
                               </div>
                           </a>
                       </div>
@@ -122,7 +111,6 @@
                               <div class="service-info">
                                   <img src="images/svg/converter.svg" alt="Management">
                                   <h4>Image To Base64</h4>
-                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
                               </div>
                           </a>
                       </div>
