@@ -74,7 +74,10 @@ let RadialOptions=[
     const addRadialColors = (id,type) =>{
         RadialColorContainer.insertAdjacentHTML('beforeend',`
           <div class="form-group">
-          <input type="text" class="form-control color-input" id=${id} value='rgba(19,241,134,1)'/>
+          <div id="${id}" class="input-group colorpicker-component">
+          <input type="text" value="rgba(19,241,134,1)" class="form-control"/>
+          <span class="input-group-addon"><i></i></span>
+      </div>
       <div class="color-options">
           <input type="text" data-id=${id} name="spread" value="0"/>
     <span class="spread">% ${(type === "add") ? `<i data-id=${id} class="fas fa-trash" style="margin-left: 10px; cursor: pointer;"></i>` :''}</span>
