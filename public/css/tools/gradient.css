@@ -50,12 +50,10 @@ height:35px;
 .code-container{
     overflow:auto;
     word-break:break-word;
-    height:72px;
 }
 .code-container code{
     width:100%;
     display:block;
-    font-size: 15px;
 }
 input[type=range] {
     -webkit-appearance: none;

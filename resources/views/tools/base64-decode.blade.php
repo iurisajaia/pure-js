@@ -21,10 +21,10 @@
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12">
 
-            <textarea class="minify-textarea"  disabled id="decodeOutputArea" cols="30" rows="10"></textarea>
+            <textarea class="minify-textarea"  readonly id="decodeOutputArea" cols="30" rows="10"></textarea>
 
             <div class="text-center">
-                <button>Copy To Clipboard</button>
+                <button target="_blank" data-clipboard-action="copy" class="button" data-clipboard-target="#decodeOutputArea">Copy To Clipboard</button>
             </div>
 
         </div>

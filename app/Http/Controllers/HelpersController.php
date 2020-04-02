@@ -19,7 +19,7 @@ class HelpersController extends Controller
 
         $text = $request->text;
 
-        $dom = new DOMDocument();
+        $dom = new \DOMDocument();
 
         $dom->preserveWhiteSpace = false;
         $dom->loadHTML($text,LIBXML_HTML_NOIMPLIED);

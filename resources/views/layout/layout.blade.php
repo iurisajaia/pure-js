@@ -21,26 +21,30 @@
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
 
-        <link rel="shortcut icon" href="favicon.ico">
-        <link rel="stylesheet" href="{{ asset('/css/bootstrap.min.css')}}">
-        <link rel="stylesheet" href="{{ asset('/css/fontawesome/all.min.css')}}">
-        <link rel="stylesheet" href="{{ asset('/css/normalize.css')}}">
-        <link rel="stylesheet" href="{{ asset('/css/transition-animations.css')}}">
-        <link rel="stylesheet" href="{{ asset('/css/owl.carousel.css')}}">
-        <link rel="stylesheet" href="{{ asset('/css/magnific-popup.css')}}">
-        <link rel="stylesheet" href="{{ asset('/css/animate.css')}}">
-        <link rel="stylesheet" href="{{ asset('/css/main.css')}}" type="text/css">
+        <link rel="shortcut icon" href="{{ asset('/images/svg/gear.svg') }}">
+        <script src="{{ asset('js/jquery-2.1.3.min.js')}}"></script>
+        <link rel="stylesheet" href="{{ asset('/css/app.css')}}" type="text/css">
+
+        <meta name="google-site-verification" content="zWEFSHiIMdFojNswX_eIQINmRA-w-ZrwSGNGXSUHcbo" />
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156256604-4"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-156256604-4');
+        </script>
 
         @stack('styles')
 
 
 
-        <script src="{{ asset('/js/jquery-2.1.3.min.js')}}"></script>
-{{--        <script src="{{ asset('/js/modernizr.custom.js')}}"></script>--}}
 
 
     </head>
     <body>
+
         <div class="flex-center position-ref full-height">
             <div class="preloader">
               <div class="preloader-animation">
@@ -48,6 +52,10 @@
                 <div class="dot2"></div>
               </div>
             </div>
+
+
+
+
             <div id="page" class="page">
                 {{--
 
@@ -83,15 +91,17 @@
 
                             <!-- Social buttons -->
                             <ul class="social-links">
-                                <li><a class="tip social-button" href="#" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-                                <li><a class="tip social-button" href="#" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-                                <li><a class="tip social-button" href="#" title="Google Plus"><i class="fa fa-google-plus"></i></a></li>
+                                <li><a class="tip social-button" target="_blank" href="https://twitter.com/DexterSja" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+{{--                                <li><a class="tip social-button" href="#" title="Facebook"><i class="fa fa-facebook"></i></a></li>--}}
+{{--                                <li><a class="tip social-button" href="#" title="Google Plus"><i class="fa fa-google-plus"></i></a></li>--}}
                             </ul>
                             <!-- /Social buttons -->
                         </div>
                         <!-- Navigation & Social buttons -->
                         <div class="container">
+                            <section>
                                 @yield('content')
+                            </section>
                         </div>
 
 
@@ -109,9 +119,7 @@
 
         </div>
 
-
        <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.10/clipboard.min.js"></script>
-       <script src="{{ asset('js/jquery-2.1.3.min.js')}}"></script>
        <script src="{{ asset('js/bootstrap.min.js')}}"></script>
        <script src="{{ asset('js/main.js')}}"></script>
 

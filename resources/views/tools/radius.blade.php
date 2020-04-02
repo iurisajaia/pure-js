@@ -1,6 +1,5 @@
 @extends('layout.layout')
 @section('content')
-    <section>
         <div class="section-title-block">
             <h1 class="section-title">Border Radius Generator</h1>
         </div>
@@ -43,13 +42,14 @@
                     </div>
                     <div class="col-sm-12 col-md-12 text-center">
                         <div class="download-cv-block">
-                            <button target="_blank" data-clipboard-action="copy" class="button" data-clipboard-target="#code-result">Copy To Clipboard</button>
+                            <button target="_blank" data-clipboard-action="copy" class="button" data-clipboard-target="#code-result">
+                                Copy To Clipboard
+                            </button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
 
 
     @push('styles')

@@ -55,7 +55,8 @@
                 </div>
                 <div class="col-sm-12 col-md-12 text-center">
                     <div class="download-cv-block">
-                        <button class="button" target="_blank" id="copy-to-clipboard">Copy To Clipboard</button>
+                        <button target="_blank" data-clipboard-action="copy" class="button" data-clipboard-target="#shadowResult">Copy To Clipboard</button>
+
                     </div>
                 </div>
             </div>
