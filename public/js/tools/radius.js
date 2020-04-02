@@ -41,6 +41,11 @@ RadiusRefs.AllCorner.addEventListener("change", e => {
     RadiusRefs.ShadowBottom.value = e.target.value;
     RadiusRefs.ShadowLeft.value = e.target.value;
 
+    topLeft  = e.target.value;
+    topRight  = e.target.value;
+    BottomRight  = e.target.value;
+    BottomLeft  = e.target.value;
+
     RadiusRefs.ShadowCodeBox.innerHTML = ResultString;
 
     RadiusRefs.ShadowResultBox.style.borderRadius = `${e.target.value}%`;
