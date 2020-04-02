@@ -26,13 +26,22 @@
                 <input type="range" class="input-range" id="spread" name="spread" value="0" min="0" max="300"/>
 
                 <label for="shadowColor">Shadow Color</label>
-                <input type="text" class="form-control color-input" id="shadowColor" value='rgba(19,241,134,1)'/>
+                <div id="shadowColor" class="input-group colorpicker-component">
+                    <input type="text" value="rgba(0, 0, 0, 1)" class="form-control"/>
+                    <span class="input-group-addon"><i></i></span>
+                </div>
                 <br/>
                 <label for="backgroundColor">Background Color</label>
-                <input type="text" class="form-control color-input" id="backgroundColor" value='rgba(19,241,134,1)'/>
+                <div id="backgroundColor" class="input-group colorpicker-component">
+                    <input type="text" value="rgba(255,255,255,1)" class="form-control"/>
+                    <span class="input-group-addon"><i></i></span>
+                </div>
                 <br/>
                 <label for="boxColor">Box Color</label>
-                <input type="text" class="form-control color-input" id="boxColor" value='rgba(19,241,134,1)'/>
+                <div id="boxColor" class="input-group colorpicker-component">
+                    <input type="text" value="rgba(255, 205, 56,1)" class="form-control"/>
+                    <span class="input-group-addon"><i></i></span>
+                </div>
                 <br/>
                 <div class="code-container">
                     <code id="shadowCode">

@@ -16,7 +16,7 @@
 .color-container{
     overflow:auto;
     height:170px;
-    width:290px;
+    width:310px;
 }
 .color-container .form-group{
     margin:0 0 10px;
@@ -33,7 +33,9 @@ width:178px;
 height:35px;
 }
 .color-options{
-    width:80px;
+    width:90px;
+    top: 5px;
+    position: relative;
 }
 .color-options > input{
     width:31px;
@@ -41,6 +43,9 @@ height:35px;
 }
 .input-range{
     margin: 20px 0;
+}
+.colorpicker-component{
+    width:200px;
 }
 .code-container{
     overflow:auto;
