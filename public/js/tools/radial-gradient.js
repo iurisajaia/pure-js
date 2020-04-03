@@ -115,14 +115,14 @@ let RadialOptions=[
         Shape = e.target.value
         generateRadialCode()
     })
-    X.addEventListener("change", function(e){
-        CenterX = e.target.value
+    changeX = function(value){
+        CenterX = value
         generateRadialCode()
-    })
-    Y.addEventListener("change", function(e){
-        CenterY = e.target.value
+    }
+    changeY = function(value){
+        CenterY = value
         generateRadialCode()
-    })
+    }
 
     RadialOptions.forEach(option => addRadialColors(option.id,"init"))
     generateRadialCode()
