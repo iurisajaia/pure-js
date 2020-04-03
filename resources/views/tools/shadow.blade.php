@@ -14,16 +14,16 @@
         <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-12">
                 <label for="horizontal">Horizontal Length</label>
-                <input type="range" class="input-range" id="horizontal" name="horizontal" value="10" min="-200" max="200"/>
+                <input type="range" oninput="horizontalChange(this.value)" class="input-range" id="horizontal" name="horizontal" value="10" min="-200" max="200"/>
 
                 <label for="vertical">Vertical Length</label>
-                <input type="range" class="input-range" id="vertical" name="vertical" value="10" min="-200" max="200"/>
+                <input type="range" oninput="verticalChange(this.value)" class="input-range" id="vertical" name="vertical" value="10" min="-200" max="200"/>
 
                 <label for="blur">Blur Radius</label>
-                <input type="range" class="input-range" id="blur" name="blur" value="5" min="0" max="300"/>
+                <input type="range" oninput="blurChange(this.value)" class="input-range" id="blur" name="blur" value="5" min="0" max="300"/>
 
                 <label for="spread">Spread Radius</label>
-                <input type="range" class="input-range" id="spread" name="spread" value="0" min="0" max="300"/>
+                <input type="range" oninput="spreadChange(this.value)" class="input-range" id="spread" name="spread" value="0" min="0" max="300"/>
 
                 <label for="shadowColor">Shadow Color</label>
                 <div id="shadowColor" class="input-group colorpicker-component">
@@ -68,7 +68,7 @@
         <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-colorpicker/2.5.3/css/bootstrap-colorpicker.min.css" rel="stylesheet">
     @endpush
     @push('scripts')
-       
+
         <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-colorpicker/2.5.3/js/bootstrap-colorpicker.min.js"></script>
         <script src="{{ asset('js/tools/shadow.js')}}"></script>
         @endpush

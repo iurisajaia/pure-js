@@ -28,15 +28,15 @@
           </div>
           <div>
             <label for="degree">Degree</label>
-            <input type="range" class="input-range" id="degree" name="degree" value="0" min="-360" max="360"/>
+            <input type="range" class="input-range" id="degree" name="degree"  value="0" min="-360" max="360"/>
         </div>
         </form>
       </div>
     </div>
     <div class="code-container">
       <code id="code-result">
-      
+
       </code>
       </div>
   </div>
- 
+

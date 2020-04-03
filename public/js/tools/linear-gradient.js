@@ -31,7 +31,7 @@ let options=[
          }else{
             ResultString = 'linear-gradient('
          }
-        
+
         options.forEach((option,i,arr)=>{
             if(i!==arr.length-1){
                 ResultString += option.color + (option.spread ? ' ' + option.spread + '%' : '') + ',';
@@ -60,7 +60,7 @@ let options=[
             options.push({
                 id:id,
                 color: 'rgba(19,241,134,1)',
-                spread: 0,  
+                spread: 0,
                })
         }
         console.log(options)
@@ -84,13 +84,13 @@ let options=[
           $(`#${id}`).on('change',(e) => changeColors(e,id))
           $(`#color-display-${id}`).on('click',function(e){
               console.log('vaimee')
-            e.preventDefault(); 
+            e.preventDefault();
           })
           ColorContainer.querySelector(`input[data-id='${id}']`).addEventListener('keyup',(e) => changeSpread(e,id))
           if(type!=='init'){
             updateColors(id)
             ColorContainer.querySelector(`i[data-id='${id}']`).addEventListener('click',(e) => deleteColors(e,id))
-          }  
+          }
     }
     const deleteColors = (e,id) =>{
         e.target.closest('.form-group').remove()
@@ -109,6 +109,7 @@ let options=[
     Degree.addEventListener("change", function(e){
         degree = e.target.value
         generateCode()
+        console.log(e.target.value)
     })
 
     Directions.addEventListener("change", function(e){

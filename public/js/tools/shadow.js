@@ -55,24 +55,27 @@ $('#shadowColor').on('change' , (e) => {
     result.backgroundColor = e.target.value
     Elements.backgroundContainer.style.backgroundColor = e.target.value
  })
-Elements.horizontal.addEventListener('change' , (e) => {
-   result.horizontal = e.target.value
-   shadowRender()
-   resultShadow();
-})
 
-Elements.vertical.addEventListener('change' , (e) => {
-    result.vertical = e.target.value
+const horizontalChange = e => {
+    result.horizontal = e;
     shadowRender()
     resultShadow();
- })
- Elements.blur.addEventListener('change' , (e) => {
-    result.blur = e.target.value
+};
+
+const verticalChange = e => {
+    result.vertical = e;
     shadowRender()
     resultShadow();
- })
- Elements.spread.addEventListener('change' , (e) => {
-    result.spread = e.target.value
+};
+
+const blurChange = e => {
+    result.blur = e;
     shadowRender()
     resultShadow();
- })
+};
+
+const spreadChange = e => {
+    result.spread = e;
+    shadowRender()
+    resultShadow();
+};
