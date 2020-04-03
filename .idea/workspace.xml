@@ -2,53 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28ceca5c-c93a-47e5-85ab-daf72ef99875" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/images/svg/closered.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/new.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/new.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/tools/minify-css.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/tools/minify-css.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/blog/blog_post_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/blog/blog_post_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/blog/blog_post_2_full.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/blog/blog_post_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/blog/blog_post_4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/blog/blog_post_5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/blog/blog_post_6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/blog/blog_post_7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/blog/blog_post_8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/blog/comments/comment_photo_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/blog/comments/comment_photo_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/clients/client_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/clients/client_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/clients/client_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/clients/client_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/clients/client_5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/clients/client_6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/my_photo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/photo_small.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/portfolio/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/portfolio/10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/portfolio/11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/portfolio/12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/portfolio/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/portfolio/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/portfolio/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/portfolio/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/portfolio/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/portfolio/7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/portfolio/8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/portfolio/9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/portfolio/portfolio_details/1_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/portfolio/portfolio_details/1_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/portfolio/portfolio_details/1_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/service/copywrite.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/service/ecommerce.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/service/management.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/service/web_design.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/testimonials/testimonial_photo_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/testimonials/testimonila_photo_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layout/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout/layout.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/static/contact.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/static/contact.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -257,7 +211,7 @@
       <workItem from="1585813178085" duration="582000" />
       <workItem from="1585864118888" duration="208000" />
       <workItem from="1585902434422" duration="13000" />
-      <workItem from="1585905531413" duration="6595000" />
+      <workItem from="1585905531413" duration="6941000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://css-tool.com/</loc>
+  <lastmod>2020-04-03T13:05:17+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://css-tool.com/border-radius</loc>
+  <lastmod>2020-04-03T13:05:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://css-tool.com/linear-gradient</loc>
+  <lastmod>2020-04-03T13:05:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://css-tool.com/box-shadow</loc>
+  <lastmod>2020-04-03T13:05:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://css-tool.com/html-formater</loc>
+  <lastmod>2020-04-03T13:05:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://css-tool.com/minify-css</loc>
+  <lastmod>2020-04-03T13:05:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://css-tool.com/minify-js</loc>
+  <lastmod>2020-04-03T13:05:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://css-tool.com/json-encode</loc>
+  <lastmod>2020-04-03T13:05:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://css-tool.com/json-formatter</loc>
+  <lastmod>2020-04-03T13:05:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://css-tool.com/base64-decode</loc>
+  <lastmod>2020-04-03T13:05:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://css-tool.com/image-to-base64</loc>
+  <lastmod>2020-04-03T13:05:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://css-tool.com/about</loc>
+  <lastmod>2020-04-03T13:05:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://css-tool.com/terms-of-services</loc>
+  <lastmod>2020-04-03T13:05:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://css-tool.com/privacy-policy</loc>
+  <lastmod>2020-04-03T13:05:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://css-tool.com/contact</loc>
+  <lastmod>2020-04-03T13:05:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>
