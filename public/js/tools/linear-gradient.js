@@ -106,13 +106,14 @@ let options=[
         addColors(new Date().getTime(),'add')
     })
 
-    Degree.addEventListener("change", function(e){
-        degree = e.target.value
+    changeDegree = function(value){
+        direction = null;
+        degree = value
         generateCode()
-        console.log(e.target.value)
-    })
+    }
 
     Directions.addEventListener("change", function(e){
+        degree = 0;
         direction = e.target.value
         generateCode()
     })

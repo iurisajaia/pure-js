@@ -51,7 +51,7 @@
                                   </div>
                                   <div>
                                     <label for="degree">Degree</label>
-                                    <input type="range" class="input-range" id="degree" name="degree" value="0" min="-360" max="360"/>
+                                    <input type="range" oninput="changeDegree(this.value)" class="input-range" id="degree" name="degree" value="0" min="-360" max="360"/>
                                 </div>
                                 </form>
                               </div>
@@ -99,11 +99,11 @@
                               </div>
                               <div>
                                 <label for="centerx">CenterX</label>
-                                <input type="range" class="input-range" id="centerx" name="centerx" value="50" min="0" max="100"/>
+                                <input type="range"  oninput="changeX(this.value)" class="input-range" id="centerx" name="centerx" value="50" min="0" max="100"/>
                             </div>
                             <div>
                               <label for="centery">CenterY</label>
-                              <input type="range" class="input-range" id="centery" name="centery" value="50" min="0" max="100"/>
+                              <input type="range"  oninput="changeY(this.value)" class="input-range" id="centery" name="centery" value="50" min="0" max="100"/>
                           </div>
                             </form>
                           </div>
