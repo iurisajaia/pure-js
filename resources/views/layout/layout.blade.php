@@ -43,10 +43,17 @@
 
 
     </head>
-    <body>
+    <body id="document-body">
+        @if (!\Request::is('/'))
+            <div class="open-modal">
+                <img src="{{asset('/images/svg/menu.svg')}}" class="modalChanger" />
+            </div>
+        @endif
+
 
         <div class="flex-center position-ref full-height">
-            <div class="preloader">
+
+        <div class="preloader">
               <div class="preloader-animation">
                 <div class="dot1"></div>
                 <div class="dot2"></div>
@@ -55,8 +62,112 @@
 
 
 
+        <div id="menu-overlay">
+            <div class="close-modal" >
+                <img src="{{asset('images/svg/closered.svg')}}" class="modalChanger"/>
+            </div>
+            <div class="subpages">
+                <!-- About Me Subpage -->
+                <section class="pt-page-1" data-id="about_me">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-3 subpage-block">
+                            <a href="/border-radius" class="service-block">
+                                <div class="service-info">
+                                    <img src="images/svg/radius.svg" alt="Responsive Design">
+                                    <h4>Border Radius Generator</h4>
+                                </div>
+                            </a>
+                        </div>
 
-            <div id="page" class="page">
+                        <div class="col-sm-6 col-md-3 subpage-block">
+                            <a href="/linear-gradient" class="service-block">
+                                <div class="service-info">
+                                    <img src="images/svg/gradient.svg" alt="Copywriter">
+                                    <h4>Linear Gradient Generator</h4>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col-sm-6 col-md-3 subpage-block">
+                            <a href="/box-shadow" class="service-block">
+                                <div class="service-info">
+                                    <img src="images/svg/shadow.svg" alt="E-Commerce">
+                                    <h4>Box Shadow Generator</h4>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col-sm-6 col-md-3 subpage-block">
+                            <a href="/html-formater" class="service-block">
+                                <div class="service-info">
+                                    <img src="images/svg/format.svg" alt="Management">
+                                    <h4>HTML Formater</h4>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col-sm-6 col-md-3 subpage-block">
+                            <a href="/minify-css" class="service-block">
+                                <div class="service-info">
+                                    <img src="images/svg/compressor.svg" alt="Management">
+                                    <h4>Minify / Beautify CSS</h4>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-3 subpage-block">
+                            <a href="/minify-js" class="service-block">
+                                <div class="service-info">
+                                    <img src="images/svg/jscompressor.svg" alt="Management" class="rotateImage">
+                                    <h4>Minify JS</h4>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-3 subpage-block">
+                            <a href="/json-encode" class="service-block">
+                                <div class="service-info">
+                                    <img src="images/svg/json-encode.svg" alt="Management">
+                                    <h4>JSON Encode / Decode</h4>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-3 subpage-block">
+                            <a href="/json-formatter" class="service-block">
+                                <div class="service-info">
+                                    <img src="images/svg/json.svg" alt="Management">
+                                    <h4>JSON Formatter</h4>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-3 subpage-block">
+                            <a href="/base64-decode" class="service-block">
+                                <div class="service-info">
+                                    <img src="images/svg/encoding.svg" alt="Management">
+                                    <h4>BASE64 Encode / Decode</h4>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-3 subpage-block">
+                            <a href="/image-to-base64" class="service-block">
+                                <div class="service-info">
+                                    <img src="images/svg/converter.svg" alt="Management">
+                                    <h4>Image To Base64</h4>
+                                </div>
+                            </a>
+                        </div>
+
+
+                    </div>
+                    <!-- End of Services block -->
+                </section>
+                <!-- End of About Me Subpage -->
+
+
+
+            </div>
+        </div>
+
+
+        <div id="page" class="page">
                 {{--
 
                 {{--          <!-- Main Content -->--}}

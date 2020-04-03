@@ -4,6 +4,7 @@
     border: 1px solid #ffcd38;
     padding: 10px;
     border-radius: 8px;
+    resize: none;
 }
 .select_file_container{
     padding:5px 10px;
