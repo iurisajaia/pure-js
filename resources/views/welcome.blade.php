@@ -43,7 +43,7 @@
                       <a href="/linear-gradient" class="service-block">
                         <div class="service-info">
                           <img src="images/svg/gradient.svg" alt="Copywriter">
-                          <h4>Linear Gradient Generator</h4>
+                          <h4>Gradient Generator</h4>
                         </div>
                       </a>
                     </div>

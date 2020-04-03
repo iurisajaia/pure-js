@@ -21,6 +21,7 @@ Route::get('/contact', 'RoutesController@Contact');
 
 Route::get('/border-radius', 'RoutesController@BorderRadius');
 Route::get('/linear-gradient', 'RoutesController@LinearGradient');
+Route::get('/radial-gradient', 'RoutesController@RadialGradient');
 Route::get('/box-shadow', 'RoutesController@BoxShadow');
 Route::get('/html-formater', 'RoutesController@HtmlFormater');
 Route::get('/minify-css', 'RoutesController@MinifyCss');
