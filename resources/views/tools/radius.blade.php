@@ -14,19 +14,19 @@
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <label for="shadowAll">All Corner</label>
-                    <input type="range" class="input-range" id="shadowAll" name="all" value="0" min="0" max="50"/>
+                    <input type="range" class="input-range" id="shadowAll" onInput="allCornerMove(this.value)" name="all" value="0" min="0" max="50"/>
 
                     <label for="shadow-top">Top</label>
-                    <input type="range" class="input-range" id="shadow-top" name="top" value="0" min="0" max="50"/>
+                    <input type="range" class="input-range" id="shadow-top" oninput="topCornerMove(this.value)" name="top" value="0" min="0" max="50"/>
 
                     <label for="shadow-right">Right</label>
-                    <input type="range" class="input-range" id="shadow-right" name="right" value="0" min="0" max="50"/>
+                    <input type="range" class="input-range" id="shadow-right" oninput="rightCornerMove(this.value)" name="right" value="0" min="0" max="50"/>
 
                     <label for="shadow-bottom">Bottom</label>
-                    <input type="range" class="input-range" id="shadow-bottom" name="bottom" value="0" min="0" max="50"/>
+                    <input type="range" class="input-range" id="shadow-bottom" oninput="bottomCornerMove(this.value)" name="bottom" value="0" min="0" max="50"/>
 
                     <label for="shadow-left">Left</label>
-                    <input type="range" class="input-range" id="shadow-left" name="left" value="0" min="0" max="50"/>
+                    <input type="range" class="input-range" id="shadow-left" oninput="leftCornerMove(this.value)" name="left" value="0" min="0" max="50"/>
 
                     <div class="code-container">
                         <code id="code-result">

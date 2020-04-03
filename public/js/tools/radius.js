@@ -28,51 +28,50 @@ const resultRadius = () => {
     `;
 };
 
-RadiusRefs.AllCorner.addEventListener("change", e => {
-
+const allCornerMove = val => {
     ResultString = `
-    border-radius : ${e.target.value}%;
-    -moz-border-radius: ${e.target.value}%;
-    -webkit-border-radius: ${e.target.value}%;
+    border-radius : ${val}%;
+    -moz-border-radius: ${val}%;
+    -webkit-border-radius: ${val}%;
     `;
 
-    RadiusRefs.ShadowTop.value = e.target.value;
-    RadiusRefs.ShadowRight.value = e.target.value;
-    RadiusRefs.ShadowBottom.value = e.target.value;
-    RadiusRefs.ShadowLeft.value = e.target.value;
+    RadiusRefs.ShadowTop.value = val;
+    RadiusRefs.ShadowRight.value = val;
+    RadiusRefs.ShadowBottom.value = val;
+    RadiusRefs.ShadowLeft.value = val;
 
-    topLeft  = e.target.value;
-    topRight  = e.target.value;
-    BottomRight  = e.target.value;
-    BottomLeft  = e.target.value;
+    topLeft  = val;
+    topRight  = val;
+    BottomRight  = val;
+    BottomLeft  = val;
 
     RadiusRefs.ShadowCodeBox.innerHTML = ResultString;
 
-    RadiusRefs.ShadowResultBox.style.borderRadius = `${e.target.value}%`;
-});
+    RadiusRefs.ShadowResultBox.style.borderRadius = `${val}%`;
+}
 
-RadiusRefs.ShadowTop.addEventListener("change" , e => {
-    topLeft = e.target.value;
+const topCornerMove = val => {
+    topLeft = val;
     resultRadius();
-    RadiusRefs.ShadowResultBox.style.borderTopLeftRadius = `${e.target.value}%`;
-});
+    RadiusRefs.ShadowResultBox.style.borderTopLeftRadius = `${val}%`;
+};
 
-RadiusRefs.ShadowRight.addEventListener("change" , e => {
-    topRight = e.target.value;
+const rightCornerMove = val => {
+    topRight = val;
     resultRadius();
-    RadiusRefs.ShadowResultBox.style.borderTopRightRadius = `${e.target.value}%`;
-});
+    RadiusRefs.ShadowResultBox.style.borderTopRightRadius = `${val}%`;
+};
 
-RadiusRefs.ShadowBottom.addEventListener("change" , e => {
-    BottomRight = e.target.value;
+const bottomCornerMove = val => {
+    BottomRight = val;
     resultRadius();
-    RadiusRefs.ShadowResultBox.style.borderBottomRightRadius = `${e.target.value}%`;
-});
+    RadiusRefs.ShadowResultBox.style.borderBottomRightRadius = `${val}%`;
+};
 
-RadiusRefs.ShadowLeft.addEventListener("change" , e => {
-    BottomLeft = e.target.value;
+const leftCornerMove = val => {
+    BottomLeft = val;
     resultRadius();
-    RadiusRefs.ShadowResultBox.style.borderBottomLeftRadius = `${e.target.value}%`;
-});
+    RadiusRefs.ShadowResultBox.style.borderBottomLeftRadius = `${val}%`;
+};
 
 
