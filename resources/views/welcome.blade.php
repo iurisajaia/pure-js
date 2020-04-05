@@ -14,8 +14,8 @@
                     <div class="col-md-12 col-sm-12 subpage-block">
                       <div class="general-info">
                         <h3>CSS-TOOL.COM</h3>
-                        <p>Proin laoreet elementum ligula, ac tincidunt lorem accumsan nec. Fusce eget urna ante. Donec massa velit, varius a accumsan ac, tempor iaculis massa. Sed placerat justo sed libero varius vulputate. Ut a mi tempus massa malesuada fermentum.</p>
-                        <p>Sed eleifend sed nibh nec fringilla. Donec eu cursus sem, vitae tristique ante. Cras pretium rutrum egestas. Integer ultrices libero sed justo vehicula, eget tincidunt tortor tempus. Sed tellus nibh, lobortis ut blandit sed, convallis a mauris.</p>
+                        <p>Css is the best way for your creative and cool layouts, although sometimes it might be difficult since it requires  time to really understand it's key, foundational concepts.</p>
+                        <p>The best knews is that our website offers  comprehensive css toolset which will make any developer's life easier.</p>
                       </div>
                     </div>
 
