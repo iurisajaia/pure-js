@@ -5,19 +5,13 @@
     </div>
     <section>
 
-        Welcome to CSS-TOOL.com, your number one source for all things [product]. We're dedicated to giving you the very best of [product], with a focus on [store characteristic 1], [store characteristic 2], [store characteristic 3].
+        Welcome to CSS-TOOL.com, your number one source for css generators. We're dedicated to giving you the very best of css capabilities, with a focus on simplicity, efficiency and completeness.
 
 
-        Founded in [year] by [founder name], CSS-TOOL.com has come a long way from its beginnings in [starting location]. When [founder name] first started out, [his/her/their] passion for [brand message - e.g. "eco-friendly cleaning products"] drove them to [action: quit day job, do tons of research, etc.] so that CSS-TOOL.com can offer you [competitive differentiator - e.g. "the world's most advanced toothbrush"]. We now serve customers all over [place - town, country, the world], and are thrilled that we're able to turn our passion into [my/our] own website.
+        In the process of creating  modern web or mobile applications developers always run into the issues concerning css usage. So we decided to make your life easier through offering you different types of css generators.You won't have to spend hours on google search to get neccessary styles for your components, all you have to do is to visit our website and take benefit from customizing  generators.It's always been in our interest to make developers drudgery less painful and we are thrilled to have turned our passion into a website.
 
 
-        [I/we] hope you enjoy [my/our] products as much as [I/we] enjoy offering them to you. If you have any questions or comments, please don't hesitate to contact [me/us].
-
-
-        Sincerely,
-
-        [founder name]
-
+       If you have any questions or comments, please don't hesitate to contact us.
 
     </section>
 

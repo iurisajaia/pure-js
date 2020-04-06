@@ -1,3 +1,4 @@
+let GradientResultBox = document.getElementById('gradient-result'); // Result Box
 let RadialCode = document.getElementById('radial-code'); // Code Result
 let AddRadialColor = document.getElementById("addRadialColor"); // Add Color
 let Shapes = document.getElementById('shapes');
@@ -49,7 +50,7 @@ let RadialOptions=[
         ${'-webkit-'+RadialString}
         ${'-moz-'+RadialString}
         `;
-        ShadowResultBox.style.background = RadialString;
+        GradientResultBox.style.background = RadialString;
     }
 
     const updateRadialColors = (id,type,value) =>{

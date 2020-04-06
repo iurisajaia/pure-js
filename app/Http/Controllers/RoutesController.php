@@ -207,7 +207,31 @@ class RoutesController extends Controller{
             'seo' => $this->seo
         ];
 
-        return view('tools.gradient')->with($data);
+        return view('tools.linear-gradient')->with($data);
+    }
+    public function RadialGradient(){
+        $this->seo = [
+            'title' => 'css gradient generator',
+            'description' => 'CSS gradients let you display smooth transitions between two or more specified colors. CSS defines two types of gradients:Linear Gradients (goes down/up/left/right/diagonally) , Radial Gradients (defined by their center)',
+            'keywoards' => '
+                css gradient,
+                css gradient generator,
+                gradient generator,
+                css linear gradient,
+                css background gradient,
+                linear gradient,
+                background gradient color,
+                gradient color css,
+                css border gradient,
+                css bg gradient,
+            '
+        ];
+
+        $data = [
+            'seo' => $this->seo
+        ];
+
+        return view('tools.radial-gradient')->with($data);
     }
 
     public function BoxShadow(){

@@ -109,7 +109,7 @@
                           </div>
                         </div>
                         <div class="code-container">
-                          <code id="radial-code">
+                          <code id="radial-result">
                           </code>
                           </div>
                       </div>
@@ -123,7 +123,7 @@
                 </div>
                 <div class="col-sm-12 col-md-12 text-center">
                     <div class="download-cv-block">
-                        <button target="_blank" data-clipboard-action="copy" class="button" data-clipboard-target="#shadow-result">Copy To Clipboard</button>
+                        <button target="_blank" data-clipboard-action="copy" class="button" data-clipboard-target="#code-result">Copy To Clipboard</button>
                     </div>
                 </div>
             </div>

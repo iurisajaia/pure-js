@@ -1,4 +1,4 @@
-let ShadowResultBox = document.getElementById('shadow-result'); // Result Box
+let GradientResultBox = document.getElementById('gradient-result'); // Result Box
 let ShadowCodeBox = document.getElementById('code-result'); // Code Result
 let AddColor = document.getElementById("addColor"); // Add Color
 let Degree = document.getElementById('degree');
@@ -44,7 +44,7 @@ let options=[
         ${'-webkit-'+ResultString}
         ${'-moz-'+ResultString}
         `;
-        ShadowResultBox.style.background = ResultString;
+        GradientResultBox.style.background = ResultString;
     }
 
     const updateColors = (id,type,value) =>{
