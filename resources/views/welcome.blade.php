@@ -45,6 +45,8 @@
                           <img src="images/svg/gradient.svg" alt="Copywriter">
                           <h4>Gradient Generator</h4>
                         </div>
+                      </a>
+                    </div>
 
                         <div class="col-sm-6 col-md-3 subpage-block">
                             <a href="/box-shadow" class="service-block">
