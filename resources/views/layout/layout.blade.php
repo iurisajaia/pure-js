@@ -23,6 +23,7 @@
 
         <link rel="shortcut icon" href="{{ asset('/images/svg/gear.svg') }}">
         <script src="{{ asset('js/jquery-2.1.3.min.js')}}"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.10/clipboard.min.js"></script>
         <link rel="stylesheet" href="{{ asset('/css/app.css')}}" type="text/css">
 
         <meta name="google-site-verification" content="zWEFSHiIMdFojNswX_eIQINmRA-w-ZrwSGNGXSUHcbo" />
@@ -230,7 +231,7 @@
 
         </div>
 
-       <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.10/clipboard.min.js"></script>
+
        <script src="{{ asset('js/bootstrap.min.js')}}"></script>
        <script src="{{ asset('js/main.js')}}"></script>
 
