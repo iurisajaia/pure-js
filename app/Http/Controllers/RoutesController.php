@@ -6,6 +6,14 @@ use Illuminate\Http\Request;
 
 class RoutesController extends Controller{
 
+//    top keywoards
+//json formatter,
+//json prettier,
+//json prettifier,
+//html formatter
+//base 64 encode
+//base 64 decode
+
     public function HomePage(){
 
         $this->seo = [
@@ -362,6 +370,8 @@ class RoutesController extends Controller{
             'keywoards' => '
                 json formatter,
                 json prettier,
+                json prettifier,
+                online json formatter,
                 json parser,
                 json beautifier,
                 online json viewer,

@@ -9,4 +9,4 @@ $('.modalChanger').click(function () {
     $('#document-body').toggleClass('overflowHidden');
 });
 
-!function(e){e(window).on("load",function(){e(".preloader").fadeOut("slow")})}(jQuery),$("#menuToggle").click(function(){$("#mobileMenu").toggleClass("mobile-menu-hide"),$("#menuToggle").toggleClass("close")});
+(jQuery),$("#menuToggle").click(function(){$("#mobileMenu").toggleClass("mobile-menu-hide"),$("#menuToggle").toggleClass("close")});
