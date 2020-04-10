@@ -1,0 +1,15 @@
+.clipboard-animation{
+    border: 1px solid #EBF0F1;
+    color: #8b9da9;
+      background: #ecf0f1;
+    background: -webkit-linear-gradient(-45deg, #ecf0f1 0%, #f6f6f6 47%, #ededed 100%);
+    background: -moz-linear-gradient(-45deg, #ecf0f1 0%, #f6f6f6 47%, #ededed 100%);
+    background: -o-linear-gradient(-45deg, #ecf0f1 0%, #f6f6f6 47%, #ededed 100%);
+    background: linear-gradient(-45deg, #ecf0f1 0%, #f6f6f6 47%, #ededed 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ecf0f1', endColorstr='#ededed',GradientType=1 ); 
+      -webkit-transform: scale(1.2);
+      -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+      -o-transform: scale(1.2);
+      transform: scale(1.2);
+}

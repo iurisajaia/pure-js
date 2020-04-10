@@ -1,7 +1,7 @@
 var clipboard = new Clipboard ('.button');
 clipboard.on('success', function(e) {
-    $('.preloader').fadeIn("slow");
-    $('.preloader').fadeOut("slow");
+   $('.download-cv-block button').addClass('clipboard-animation')
+   setTimeout(function(){ $('.download-cv-block button').removeClass('clipboard-animation')}, 500);
 });
 
 $('.modalChanger').click(function () {
