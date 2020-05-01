@@ -23,8 +23,8 @@
 
         <link rel="shortcut icon" href="{{ asset('/images/svg/gear.svg') }}">
         <script src="{{ asset('js/jquery-2.1.3.min.js')}}"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.10/clipboard.min.js"></script>
         <link rel="stylesheet" href="{{ asset('/css/app.css')}}" type="text/css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.10/clipboard.min.js"></script>
         <script data-ad-client="ca-pub-8724175326124727" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
         <meta name="google-site-verification" content="zWEFSHiIMdFojNswX_eIQINmRA-w-ZrwSGNGXSUHcbo" />
         <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -45,11 +45,28 @@
 
     </head>
     <body id="document-body">
-        @if (!\Request::is('/'))
-            <div class="open-modal">
-                <img src="{{asset('/images/svg/menu.svg')}}" class="modalChanger" alt="menu icon" title="menu"/>
-            </div>
-        @endif
+
+
+
+
+{{--    <div class="newsletter-modal">--}}
+{{--        <div class="newsletter-content">--}}
+{{--            <form>--}}
+{{--                <input type="email" />--}}
+{{--                <button>Subscribe</button>--}}
+{{--            </form>--}}
+{{--        </div>--}}
+{{--    </div>--}}
+
+
+
+
+
+    @if (!\Request::is('/'))
+        <div class="open-modal">
+            <img src="{{asset('/images/svg/menu.svg')}}" class="modalChanger" alt="menu icon" title="menu"/>
+        </div>
+    @endif
 
 
         <div class="flex-center position-ref full-height">
@@ -215,6 +232,9 @@
                     <!-- /Page changer wrapper -->
                 </div>
                         <footer class="pt-2">
+                            <div class="text-center">
+                                <a href="https://simgerebi.ge" target="_blank">simgerebi</a>
+                            </div>
                             <div class="text-center">
                                 <p>© CSS-TOOL.COM - All rights reserved</p>
                                 <p>2020</p>

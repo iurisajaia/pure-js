@@ -6,10 +6,44 @@
     background: -moz-linear-gradient(-45deg, #ecf0f1 0%, #f6f6f6 47%, #ededed 100%);
     background: -o-linear-gradient(-45deg, #ecf0f1 0%, #f6f6f6 47%, #ededed 100%);
     background: linear-gradient(-45deg, #ecf0f1 0%, #f6f6f6 47%, #ededed 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ecf0f1', endColorstr='#ededed',GradientType=1 ); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ecf0f1', endColorstr='#ededed',GradientType=1 );
       -webkit-transform: scale(1.2);
       -moz-transform: scale(1.2);
     -ms-transform: scale(1.2);
       -o-transform: scale(1.2);
       transform: scale(1.2);
+}
+
+.newsletter-modal{
+    width: 100%;
+    height: 100vh;
+    background: rgba(0,0,0,.4);
+    overflow: hidden;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 99999999999;
+}
+.newsletter-content{
+    min-width: 350px;
+    min-height: 350px;
+    width: 60%;
+    height: 80%;
+    border-radius: 10px;
+    background-image: url("../images/newsletter.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.newsletter-content::before{
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*position: absolute;*/
+    /*left: 0;*/
+    /*top: 0;*/
+    /*background-color: rgba(0,0,0,.5);*/
 }
