@@ -23,7 +23,7 @@ Route::get('/border-radius', 'RoutesController@BorderRadius');
 Route::get('/linear-gradient', 'RoutesController@LinearGradient');
 Route::get('/radial-gradient', 'RoutesController@RadialGradient');
 Route::get('/box-shadow', 'RoutesController@BoxShadow');
-Route::get('/html-formater', 'RoutesController@HtmlFormater');
+Route::get('/html-formatter', 'RoutesController@HtmlFormater');
 Route::get('/minify-css', 'RoutesController@MinifyCss');
 Route::get('/minify-js', 'RoutesController@MinifyJs');
 Route::get('/image-to-base64', 'RoutesController@ImageToBase64');

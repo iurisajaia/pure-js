@@ -1,13 +1,6 @@
 @extends('layout.layout')
 @section('content')
-    <div class="section-title-block">
-        <h1 class="section-title">Image To BASE64</h1>
-    </div>
-    <div class="description">
-        <h2>
-            Optimize your images and convert them to base64 online. Drag & Drop your files, copy to clipboard with a click and use the result in HTML and CSS.
-        </h2>
-    </div>
+    @include( 'components.description' , ['title' => $seo['title'], 'description' =>  $seo['description']])
     <div class="row">
         <div class="col-lg-12 col-sm-12">
             <form method="post" id="upload_form" enctype="multipart/form-data">
@@ -85,6 +78,7 @@
     </script>
 
     @push('styles')
+        <link rel="stylesheet" href="{{ asset('/css/bootstrap/imagetobase.min.css')}}" type="text/css">
         <link rel="stylesheet" href="{{ asset('/css/tools/minify-css.css')}}" type="text/css">
     @endpush
 @endsection

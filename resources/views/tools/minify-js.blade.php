@@ -1,11 +1,6 @@
 @extends('layout.layout')
 @section('content')
-    <div class="section-title-block">
-        <h1 class="section-title">Minify JS</h1>
-    </div>
-    <div class="description">
-        <h2>Free web-based tool to minify or beautify your JS code.</h2>
-    </div>
+    @include( 'components.description' , ['title' => $seo['title'], 'description' =>  $seo['description']])
     <div class="row">
         <div class="col-lg-6 col-md-6 col-sm-12">
 
@@ -50,6 +45,7 @@
         });
     </script>
     @push('styles')
+        <link rel="stylesheet" href="{{ asset('/css/bootstrap/minifyjs.min.css')}}" type="text/css">
         <link rel="stylesheet" href="{{ asset('/css/tools/minify-css.css')}}" type="text/css">
     @endpush
 @endsection

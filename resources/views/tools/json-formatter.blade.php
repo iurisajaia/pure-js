@@ -1,14 +1,7 @@
 @extends('layout.layout')
 @section('content')
 
-    <div class="section-title-block">
-        <h1 class="section-title">JSON Formatter</h1>
-    </div>
-    <div class="description">
-        <h2>
-            The JSON Formatter beautifies JSON data with advanced formatting algorithms.
-        </h2>
-    </div>
+    @include( 'components.description' , ['title' => $seo['title'], 'description' =>  $seo['description']])
     <div class="row">
         <div class="col-lg-6 col-md-6 col-sm-12">
             <textarea class="minify-textarea" id="jsonFormatterInput" placeholder="Paste your json here" cols="30" rows="10"></textarea>
@@ -25,6 +18,7 @@
     </div>
 
     @push('styles')
+        <link rel="stylesheet" href="{{ asset('/css/bootstrap/jsonformatter.min.css')}}" type="text/css">
         <link rel="stylesheet" href="{{ asset('/css/tools/minify-css.css')}}" type="text/css">
     @endpush
     @push('scripts')

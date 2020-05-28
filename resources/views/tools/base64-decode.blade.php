@@ -1,13 +1,6 @@
 @extends('layout.layout')
 @section('content')
-    <div class="section-title-block">
-        <h1 class="section-title">BASE64 Encode / Decode</h1>
-    </div>
-    <div class="description">
-        <h2>
-            Decode from Base64 or Encode to Base64 with advanced formatting options. Enter our site for an easy-to-use online tool.
-        </h2>
-    </div>
+    @include( 'components.description' , ['title' => $seo['title'], 'description' =>  $seo['description']])
     <div class="row">
         <div class="col-lg-6 col-md-6 col-sm-12">
 
@@ -74,6 +67,7 @@
         });
     </script>
     @push('styles')
+        <link rel="stylesheet" href="{{ asset('/css/bootstrap/base64.min.css')}}" type="text/css">
         <link rel="stylesheet" href="{{ asset('/css/tools/minify-css.css')}}" type="text/css">
     @endpush
 @endsection

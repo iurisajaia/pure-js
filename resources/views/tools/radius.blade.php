@@ -1,15 +1,7 @@
 @extends('layout.layout')
 @section('content')
-        <div class="section-title-block">
-            <h1 class="section-title">Border Radius Generator</h1>
-        </div>
-        <div class="description">
-            <h2>
-                Generate border radius CSS easily with this online styler. Enter the desired curve for each corner and get the code instantly.
-                <br/>
-                You can create border radius CSS code just with your mouse in few clicks without any coding.
-            </h2>
-        </div>
+        @include( 'components.description' , ['title' => $seo['title'], 'description' =>  $seo['description']])
+
         <div class="border-radius-container">
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-12">
@@ -54,6 +46,7 @@
 
     @push('styles')
         <link rel="stylesheet" href="{{ asset('/css/tools/radius.css')}}" type="text/css">
+        <link rel="stylesheet" href="{{ asset('/css/bootstrap/radius.min.css')}}" type="text/css">
     @endpush
     @push('scripts')
         <script src="{{ asset('js/tools/radius.js')}}"></script>

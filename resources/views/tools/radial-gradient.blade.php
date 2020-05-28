@@ -1,13 +1,6 @@
 @extends('layout.layout')
 @section('content')
-    <div class="section-title-block">
-        <h1 class="section-title">CSS Gradient</h1>
-    </div>
-    <div class="description">
-        <h2>
-            A free css gradient generator tool, this website lets you create a colorful gradient background for your website, blog, or social media profile.
-        </h2>
-    </div>
+    @include( 'components.description' , ['title' => $seo['title'], 'description' =>  $seo['description']])
     <div class="border-radius-container">
         <div class="row">
           <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
@@ -86,6 +79,7 @@
     </div>
     @push('styles')
         <link rel="stylesheet" href="{{ asset('/css/tools/gradient.css')}}" type="text/css">
+        <link rel="stylesheet" href="{{ asset('/css/bootstrap/gradient.min.css')}}" type="text/css">
         <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-colorpicker/2.5.3/css/bootstrap-colorpicker.min.css" rel="stylesheet">
     @endpush
     @push('scripts')

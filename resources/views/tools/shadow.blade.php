@@ -1,15 +1,6 @@
 @extends('layout.layout')
 @section('content')
-    <div class="section-title-block">
-        <h1 class="section-title">Box Shadow Generator</h1>
-    </div>
-    <div class="description">
-        <h2>
-            The box-shadow CSS property adds shadow effects around an element's frame. You can set multiple effects separated by commas.
-            <br/>
-            A box shadow is described by X and Y offsets relative to the element, blur and spread radius, and color.
-        </h2>
-    </div>
+    @include( 'components.description' , ['title' => $seo['title'], 'description' =>  $seo['description']])
     <div class="border-radius-container">
         <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-12">
@@ -65,6 +56,7 @@
 
     @push('styles')
         <link rel="stylesheet" href="{{ asset('/css/tools/radius.css')}}" type="text/css">
+        <link rel="stylesheet" href="{{ asset('/css/bootstrap/shadow.min.css')}}" type="text/css">
         <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-colorpicker/2.5.3/css/bootstrap-colorpicker.min.css" rel="stylesheet">
     @endpush
     @push('scripts')
